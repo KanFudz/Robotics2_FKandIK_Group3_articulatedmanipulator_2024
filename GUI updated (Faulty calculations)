@@ -1,0 +1,353 @@
+from tkinter import *
+from tkinter import messagebox
+from tkinter import PhotoImage
+import numpy as np
+import math
+import matplotlib
+matplotlib.use('TkAgg')
+import roboticstoolbox as rtb
+from roboticstoolbox import DHRobot, RevoluteDH, PrismaticDH
+
+# Create GUI Window with title
+root = Tk()
+root.title('Articulated Calculator')
+root.resizable(False, False)
+root.configure(bg='#23395d')
+
+
+def Forward_Kinematics():
+    global a1_entry, a2_entry, a3_entry, T1_entry, T2_entry, T3_entry, X_output, Y_output, Z_output
+
+    # Create entry fields for link lengths
+    a1_label = Label(root, text="a1:", padx=5, pady=5)
+    a1_label.grid(row=1, column=0, sticky=W)
+    a1_entry = Entry(root, width=10)
+    a1_entry.grid(row=1, column=1, padx=5, pady=5)
+
+    a2_label = Label(root, text="a2:", padx=5, pady=5)
+    a2_label.grid(row=2, column=0, sticky=W)
+    a2_entry = Entry(root, width=10)
+    a2_entry.grid(row=2, column=1, padx=5, pady=5)
+
+    a3_label = Label(root, text="a3:", padx=5, pady=5)
+    a3_label.grid(row=3, column=0, sticky=W)
+    a3_entry = Entry(root, width=10)
+    a3_entry.grid(row=3, column=1, padx=5, pady=5)
+
+    # Create entry fields for joint variables
+    T1_label = Label(root, text="T1:", padx=5, pady=5)
+    T1_label.grid(row=4, column=0, sticky=W)
+    T1_entry = Entry(root, width=10)
+    T1_entry.grid(row=4, column=1, padx=5, pady=5)
+
+    T2_label = Label(root, text="T2:", padx=5, pady=5)
+    T2_label.grid(row=5, column=0, sticky=W)
+    T2_entry = Entry(root, width=10)
+    T2_entry.grid(row=5, column=1, padx=5, pady=5)
+
+    T3_label = Label(root, text="T3:", padx=5, pady=5)
+    T3_label.grid(row=6, column=0, sticky=W)
+    T3_entry = Entry(root, width=10)
+    T3_entry.grid(row=6, column=1, padx=5, pady=5)
+
+    # Create output fields for position vector components
+    X_label = Label(root, text="X:", padx=5, pady=5)
+    X_label.grid(row=7, column=0, sticky=W)
+    X_output = Entry(root, width=10, state='readonly')
+    X_output.grid(row=7, column=1, padx=5, pady=5)
+
+    Y_label = Label(root, text="Y:", padx=5, pady=5)
+    Y_label.grid(row=8, column=0, sticky=W)
+    Y_output = Entry(root, width=10, state='readonly')
+    Y_output.grid(row=8, column=1, padx=5, pady=5)
+
+    Z_label = Label(root, text="Z:", padx=5, pady=5)
+    Z_label.grid(row=9, column=0, sticky=W)
+    Z_output = Entry(root, width=10, state='readonly')
+    Z_output.grid(row=9, column=1, padx=5, pady=5)
+
+    # Create two buttons
+    calculate_btn = Button(root, text="Calculate", command=calculate_forward)
+    calculate_btn.grid(row=10, column=0, padx=5, pady=5)
+
+    reset_btn = Button(root, text="Reset", command=reset_fields)
+    reset_btn.grid(row=10, column=1, padx=5, pady=5)
+
+
+def Inverse_Kinematics():
+    global a1_entry_inv, a2_entry_inv, a3_entry_inv, X_entry, Y_entry, Z_entry, T1_output, T2_output, T3_output
+
+    # Create entry fields for link lengths
+    a1_label_inv = Label(root, text="a1:", padx=5, pady=5)
+    a1_label_inv.grid(row=1, column=2, sticky=W)
+    a1_entry_inv = Entry(root, width=10)
+    a1_entry_inv.grid(row=1, column=3, padx=5, pady=5)
+
+    a2_label_inv = Label(root, text="a2:", padx=5, pady=5)
+    a2_label_inv.grid(row=2, column=2, sticky=W)
+    a2_entry_inv = Entry(root, width=10)
+    a2_entry_inv.grid(row=2, column=3, padx=5, pady=5)
+
+    a3_label_inv = Label(root, text="a3:", padx=5, pady=5)
+    a3_label_inv.grid(row=3, column=2, sticky=W)
+    a3_entry_inv = Entry(root, width=10)
+    a3_entry_inv.grid(row=3, column=3, padx=5, pady=5)
+
+    # Create entry fields for position vector components
+    X_label = Label(root, text="X:", padx=5, pady=5)
+    X_label.grid(row=4, column=2, sticky=W)
+    X_entry = Entry(root, width=10)
+    X_entry.grid(row=4, column=3, padx=5, pady=5)
+
+    Y_label = Label(root, text="Y:", padx=5, pady=5)
+    Y_label.grid(row=5, column=2, sticky=W)
+    Y_entry = Entry(root, width=10)
+    Y_entry.grid(row=5, column=3, padx=5, pady=5)
+
+    Z_label = Label(root, text="Z:", padx=5, pady=5)
+    Z_label.grid(row=6, column=2, sticky=W)
+    Z_entry = Entry(root, width=10)
+    Z_entry.grid(row=6, column=3, padx=5, pady=5)
+
+    # Create output fields for joint variables
+    T1_label = Label(root, text="T1:", padx=5, pady=5)
+    T1_label.grid(row=7, column=2, sticky=W)
+    T1_output = Entry(root, width=10, state='readonly')
+    T1_output.grid(row=7, column=3, padx=5, pady=5)
+
+    T2_label = Label(root, text="T2:", padx=5, pady=5)
+    T2_label.grid(row=8, column=2, sticky=W)
+    T2_output = Entry(root, width=10, state='readonly')
+    T2_output.grid(row=8, column=3, padx=5, pady=5)
+
+    T3_label = Label(root, text="T3:", padx=5, pady=5)
+    T3_label.grid(row=9, column=2, sticky=W)
+    T3_output = Entry(root, width=10, state='readonly')
+    T3_output.grid(row=9, column=3, padx=5, pady=5)
+
+    # Create two buttons
+    calculate_btn_inv = Button(root, text="Calculate", command=calculate_inverse)
+    calculate_btn_inv.grid(row=10, column=2, padx=5, pady=5)
+
+    reset_btn_inv = Button(root, text="Reset", command=reset_fields)
+    reset_btn_inv.grid(row=10, column=3, padx=5, pady=5)
+
+
+def calculate_forward():
+    try:
+        # Get values from entry fields
+        a1 = float(a1_entry.get()) / 100
+        a2 = float(a2_entry.get()) / 100
+        a3 = float(a3_entry.get()) / 100
+        T1 = float(T1_entry.get())
+        T2 = float(T2_entry.get())
+        T3 = float(T3_entry.get())
+
+        # Convert joint angles to radians
+        T1 = (T1 / 180.0) * np.pi
+        T2 = (T2 / 180.0) * np.pi
+        T3 = (T3 / 180.0) * np.pi
+
+        # Perform forward kinematics calculations
+        # Parametric Table (theta, alpha, r, d)
+        PT = [[T1, (90.0 / 180.0) * np.pi, 0, a1],
+              [T2, (0.0 / 180.0) * np.pi, a2, 0],
+              [T3, (0.0 / 180.0) * np.pi, a3, 0]]
+
+        # Homogeneous Transformation Matrices (HTM)
+        H0_1 = np.array([[np.cos(PT[0][0]), -np.sin(PT[0][0]) * np.cos(PT[0][1]), np.sin(PT[0][0]) * np.sin(PT[0][1]),
+                          PT[0][2] * np.cos(PT[0][0])],
+                         [np.sin(PT[0][0]), np.cos(PT[0][0]) * np.cos(PT[0][1]), -np.cos(PT[0][0]) * np.sin(PT[0][1]),
+                          PT[0][2] * np.sin(PT[0][0])],
+                         [0, np.sin(PT[0][1]), np.cos(PT[0][1]), PT[0][3]],
+                         [0, 0, 0, 1]])
+
+        H1_2 = np.array([[np.cos(PT[1][0]), -np.sin(PT[1][0]) * np.cos(PT[1][1]), np.sin(PT[1][0]) * np.sin(PT[1][1]),
+                          PT[1][2] * np.cos(PT[1][0])],
+                         [np.sin(PT[1][0]), np.cos(PT[1][0]) * np.cos(PT[1][1]), -np.cos(PT[1][0]) * np.sin(PT[1][1]),
+                          PT[1][2] * np.sin(PT[1][0])],
+                         [0, np.sin(PT[1][1]), np.cos(PT[1][1]), PT[1][3]],
+                         [0, 0, 0, 1]])
+
+        H2_3 = np.array([[np.cos(PT[2][0]), -np.sin(PT[2][0]) * np.cos(PT[2][1]), np.sin(PT[2][0]) * np.sin(PT[2][1]),
+                          PT[2][2] * np.cos(PT[2][0])],
+                         [np.sin(PT[2][0]), np.cos(PT[2][0]) * np.cos(PT[2][1]), -np.cos(PT[2][0]) * np.sin(PT[2][1]),
+                          PT[2][2] * np.sin(PT[2][0])],
+                         [0, np.sin(PT[2][1]), np.cos(PT[2][1]), PT[2][3]],
+                         [0, 0, 0, 1]])
+
+        H0_2 = np.dot(H0_1, H1_2)
+        H0_3 = np.dot(H0_2, H2_3)
+
+        X0_3 = H0_3[0, 3]
+        Y0_3 = H0_3[1, 3]
+        Z0_3 = H0_3[2, 3]
+
+        # Display the results in the output fields
+        X_output.config(state='normal')
+        X_output.delete(0, END)
+        X_output.insert(0, str(X0_3))
+        X_output.config(state='readonly')
+
+        Y_output.config(state='normal')
+        Y_output.delete(0, END)
+        Y_output.insert(0, str(Y0_3))
+        Y_output.config(state='readonly')
+
+        Z_output.config(state='normal')
+        Z_output.delete(0, END)
+        Z_output.insert(0, str(Z0_3))
+        Z_output.config(state='readonly')
+
+    except ValueError:
+        # Handle error if invalid input is provided
+        messagebox.showerror("Error", "Please enter valid numbers for all input fields.")
+
+#Create links
+#[robot_value]=DHRobot([RevoluteDH(d,r,alpha,offset)])
+
+    Articulated_Calculator=DHRobot([
+        RevoluteDH(a1,0,(90.0/180.0)*np.pi,(0.0/180.0)*np.pi,qlim=[-np.pi/2,np.pi/2]),
+        RevoluteDH(0,a2,(0.0/180.0)*np.pi,(0.0/180.0)*np.pi,qlim=[-np.pi/2,np.pi/2]),
+        RevoluteDH(0,a3,(0.0/180.0)*np.pi,(0.0/180.0)*np.pi,qlim=[-np.pi/2,np.pi/2])],name='Articulated')
+
+#plot joints
+    q1 = np.array([T1,T2,T3])
+
+#plot scale
+    x1=-0.5
+    x2=0.5
+    y1=-0.5
+    y2=0.5
+    z1=0.0
+    z2=0.5
+
+#Plot Command
+
+    Articulated_Calculator.plot(q1,limits=[x1,x2,y1,y2,z1,z2])
+
+def calculate_inverse():
+    try:
+        # Get values from entry fields
+        a1 = float(a1_entry_inv.get())
+        a2 = float(a2_entry_inv.get())
+        a3 = float(a3_entry_inv.get())
+        x0_3 = float(X_entry.get())
+        y0_3 = float(Y_entry.get())
+        z0_3 = float(Z_entry.get())
+
+        # Perform inverse kinematics calculations
+        if x0_3 == 0:
+            theta1 = np.pi / 2 if y0_3 > 0 else -np.pi / 2
+        else:
+            theta1 = np.arctan(y0_3 / x0_3)  # Sol1
+
+        r1 = np.sqrt(y0_3 * 2 + x0_3 * 2)  # Sol2
+        r2 = z0_3 - a1  # Sol3
+
+        if r1 == 0:
+            phi1 = np.pi / 2 if r2 > 0 else - np.pi / 2
+        else:
+            phi1 = np.arctan(r2 / r1)  # Sol4
+
+        r3 = np.sqrt(r2 * 2 + r1 * 2)  # Sol5
+
+        phi2 = np.arccos(np.clip((a3 * 2 - a2 * 2 - r3 ** 2) / (-2 * a2 * r3), -1, 1))  # Sol6
+
+        theta2 = phi1 + phi2  # Sol7
+
+        phi3 = np.arccos(np.clip((r3 * 2 - a2 * 2 - a3 ** 2) / (-2 * a2 * a3), -1, 1))  # Sol8
+
+        theta3 = np.pi - phi3  # Sol9
+
+        # Convert angles from radians to degrees
+        theta1_deg = (theta1 / np.pi) * 180
+        theta2_deg = (theta2 / np.pi) * 180
+        theta3_deg = (theta3 / np.pi) * 180
+
+        # Display the results in the output fields
+        T1_output.config(state='normal')
+        T1_output.delete(0, END)
+        T1_output.insert(0, str(theta1_deg))
+        T1_output.config(state='readonly')
+
+        T2_output.config(state='normal')
+        T2_output.delete(0, END)
+        T2_output.insert(0, str(theta2_deg))
+        T2_output.config(state='readonly')
+
+        T3_output.config(state='normal')
+        T3_output.delete(0, END)
+        T3_output.insert(0, str(theta3_deg))
+        T3_output.config(state='readonly')
+
+    except ValueError:
+        # Handle error if invalid input is provided
+        messagebox.showerror("Error", "Please enter valid numbers for all input fields.")
+
+#Create links
+#[robot_value]=DHRobot([RevoluteDH(d,r,alpha,offset)])
+        
+    Articulated_Calculator=DHRobot([
+        RevoluteDH(a1/100,0,(90.0/180.0)*np.pi,(0.0/180.0)*np.pi,qlim=[-np.pi/2,np.pi/2]),
+        RevoluteDH(0,a2/100,(0.0/180.0)*np.pi,(0.0/180.0)*np.pi,qlim=[-np.pi/2,np.pi/2]),
+        RevoluteDH(0,a3/100,(0.0/180.0)*np.pi,(0.0/180.0)*np.pi,qlim=[-np.pi/2,np.pi/2])],name='Articulated')
+
+#plot joints
+    q1 = np.array([theta1,theta2,theta3])
+
+    #plot scale
+    x1=-0.5
+    x2=0.5
+    y1=-0.5
+    y2=0.5
+    z1=0.0
+    z2=0.5
+
+    #Plot Command
+    Articulated_Calculator.plot(q1,limits=[x1,x2,y1,y2,z1,z2])
+
+
+def reset_fields():
+    # Clear all entry fields and output fields
+    a1_entry.delete(0, END)
+    a2_entry.delete(0, END)
+    a3_entry.delete(0, END)
+    T1_entry.delete(0, END)
+    T2_entry.delete(0, END)
+    T3_entry.delete(0, END)
+    X_output.config(state='normal')
+    X_output.delete(0, END)
+    X_output.config(state='readonly')
+    Y_output.config(state='normal')
+    Y_output.delete(0, END)
+    Y_output.config(state='readonly')
+    Z_output.config(state='normal')
+    Z_output.delete(0, END)
+    Z_output.config(state='readonly')
+    a1_entry_inv.delete(0, END)
+    a2_entry_inv.delete(0, END)
+    a3_entry_inv.delete(0, END)
+    X_entry.delete(0, END)
+    Y_entry.delete(0, END)
+    Z_entry.delete(0, END)
+    T1_output.config(state='normal')
+    T1_output.delete(0, END)
+    T1_output.config(state='readonly')
+    T2_output.config(state='normal')
+    T2_output.delete(0, END)
+    T2_output.config(state='readonly')
+    T3_output.config(state='normal')
+    T3_output.delete(0, END)
+    T3_output.config(state='readonly')
+
+
+# Create buttons for Forward and Inverse Kinematics
+forward_btn = Button(root, text="Forward Kinematics", command=Forward_Kinematics)
+forward_btn.grid(row=0, column=0, padx=5, pady=5)
+
+inverse_btn = Button(root, text="Inverse Kinematics", command=Inverse_Kinematics)
+inverse_btn.grid(row=0, column=2, padx=5, pady=5)
+
+# Run the main event loop
+root.mainloop()
