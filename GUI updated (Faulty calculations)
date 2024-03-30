@@ -70,7 +70,7 @@ def Forward_Kinematics():
     calculate_btn = Button(root, text="Calculate", command=calculate_forward)
     calculate_btn.grid(row=10, column=0, padx=5, pady=5)
 
-    reset_btn = Button(root, text="Reset", command=reset_fields)
+    reset_btn = Button(root, text="Reset", command=reset_field1)
     reset_btn.grid(row=10, column=1, padx=5, pady=5)
 
 
@@ -129,16 +129,16 @@ def Inverse_Kinematics():
     calculate_btn_inv = Button(root, text="Calculate", command=calculate_inverse)
     calculate_btn_inv.grid(row=10, column=2, padx=5, pady=5)
 
-    reset_btn_inv = Button(root, text="Reset", command=reset_fields)
+    reset_btn_inv = Button(root, text="Reset", command=reset_field2)
     reset_btn_inv.grid(row=10, column=3, padx=5, pady=5)
 
 
 def calculate_forward():
     try:
         # Get values from entry fields
-        a1 = float(a1_entry.get()) / 100
-        a2 = float(a2_entry.get()) / 100
-        a3 = float(a3_entry.get()) / 100
+        a1 = float(a1_entry.get())/100
+        a2 = float(a2_entry.get())/100
+        a3 = float(a3_entry.get())/100
         T1 = float(T1_entry.get())
         T2 = float(T2_entry.get())
         T3 = float(T3_entry.get())
@@ -155,29 +155,30 @@ def calculate_forward():
               [T3, (0.0 / 180.0) * np.pi, a3, 0]]
 
         # Homogeneous Transformation Matrices (HTM)
-        H0_1 = np.array([[np.cos(PT[0][0]), -np.sin(PT[0][0]) * np.cos(PT[0][1]), np.sin(PT[0][0]) * np.sin(PT[0][1]),
-                          PT[0][2] * np.cos(PT[0][0])],
-                         [np.sin(PT[0][0]), np.cos(PT[0][0]) * np.cos(PT[0][1]), -np.cos(PT[0][0]) * np.sin(PT[0][1]),
-                          PT[0][2] * np.sin(PT[0][0])],
-                         [0, np.sin(PT[0][1]), np.cos(PT[0][1]), PT[0][3]],
-                         [0, 0, 0, 1]])
+        i = 0
+        H0_1 = [[np.cos(PT[i][0]),-np.sin(PT[i][0])*np.cos(PT[i][1]),np.sin(PT[i][0])*np.sin(PT[i][1]),PT[i][2]*np.cos(PT[i][0])],
+            [np.sin(PT[i][0]),np.cos(PT[i][0])*np.cos(PT[i][1]),-np.cos(PT[i][0])*np.sin(PT[i][1]),PT[i][2]*np.sin(PT[i][0])],
+            [0,np.sin(PT[i][1]), np.cos(PT[i][1]),PT[i][3]],
+            [0,0,0,1]]
 
-        H1_2 = np.array([[np.cos(PT[1][0]), -np.sin(PT[1][0]) * np.cos(PT[1][1]), np.sin(PT[1][0]) * np.sin(PT[1][1]),
-                          PT[1][2] * np.cos(PT[1][0])],
-                         [np.sin(PT[1][0]), np.cos(PT[1][0]) * np.cos(PT[1][1]), -np.cos(PT[1][0]) * np.sin(PT[1][1]),
-                          PT[1][2] * np.sin(PT[1][0])],
-                         [0, np.sin(PT[1][1]), np.cos(PT[1][1]), PT[1][3]],
-                         [0, 0, 0, 1]])
+        i = 1
+        H1_2 = [[np.cos(PT[i][0]),-np.sin(PT[i][0])*np.cos(PT[i][1]),np.sin(PT[i][0])*np.sin(PT[i][1]),PT[i][2]*np.cos(PT[i][0])],
+            [np.sin(PT[i][0]),np.cos(PT[i][0])*np.cos(PT[i][1]),-np.cos(PT[i][0])*np.sin(PT[i][1]),PT[i][2]*np.sin(PT[i][0])],
+            [0,np.sin(PT[i][1]), np.cos(PT[i][1]),PT[i][3]],
+            [0,0,0,1]]
 
-        H2_3 = np.array([[np.cos(PT[2][0]), -np.sin(PT[2][0]) * np.cos(PT[2][1]), np.sin(PT[2][0]) * np.sin(PT[2][1]),
-                          PT[2][2] * np.cos(PT[2][0])],
-                         [np.sin(PT[2][0]), np.cos(PT[2][0]) * np.cos(PT[2][1]), -np.cos(PT[2][0]) * np.sin(PT[2][1]),
-                          PT[2][2] * np.sin(PT[2][0])],
-                         [0, np.sin(PT[2][1]), np.cos(PT[2][1]), PT[2][3]],
-                         [0, 0, 0, 1]])
+        i = 2
+        H2_3 = [[np.cos(PT[i][0]),-np.sin(PT[i][0])*np.cos(PT[i][1]),np.sin(PT[i][0])*np.sin(PT[i][1]),PT[i][2]*np.cos(PT[i][0])],
+            [np.sin(PT[i][0]),np.cos(PT[i][0])*np.cos(PT[i][1]),-np.cos(PT[i][0])*np.sin(PT[i][1]),PT[i][2]*np.sin(PT[i][0])],
+            [0,np.sin(PT[i][1]), np.cos(PT[i][1]),PT[i][3]],
+            [0,0,0,1]]
 
-        H0_2 = np.dot(H0_1, H1_2)
-        H0_3 = np.dot(H0_2, H2_3)
+        H0_1 = np.matrix (H0_1)
+        H1_2 = np.matrix (H1_2)
+        H2_3 = np.matrix (H2_3)
+
+        H0_2 = np.dot(H0_1,H1_2)
+        H0_3 = np.dot(H0_2,H2_3)
 
         X0_3 = H0_3[0, 3]
         Y0_3 = H0_3[1, 3]
@@ -186,17 +187,17 @@ def calculate_forward():
         # Display the results in the output fields
         X_output.config(state='normal')
         X_output.delete(0, END)
-        X_output.insert(0, str(X0_3))
+        X_output.insert(0, np.around(X0_3*100,3))
         X_output.config(state='readonly')
 
         Y_output.config(state='normal')
         Y_output.delete(0, END)
-        Y_output.insert(0, str(Y0_3))
+        Y_output.insert(0, np.around(Y0_3*100,3))
         Y_output.config(state='readonly')
 
         Z_output.config(state='normal')
         Z_output.delete(0, END)
-        Z_output.insert(0, str(Z0_3))
+        Z_output.insert(0, np.around(Z0_3*100,3))
         Z_output.config(state='readonly')
 
     except ValueError:
@@ -242,7 +243,7 @@ def calculate_inverse():
         else:
             theta1 = np.arctan(y0_3 / x0_3)  # Sol1
 
-        r1 = np.sqrt(y0_3 * 2 + x0_3 * 2)  # Sol2
+        r1 = np.sqrt(y0_3**2 + x0_3**2)  # Sol2
         r2 = z0_3 - a1  # Sol3
 
         if r1 == 0:
@@ -250,20 +251,20 @@ def calculate_inverse():
         else:
             phi1 = np.arctan(r2 / r1)  # Sol4
 
-        r3 = np.sqrt(r2 * 2 + r1 * 2)  # Sol5
+        r3 = np.sqrt(r2**2 + r1**2)  # Sol5
 
-        phi2 = np.arccos(np.clip((a3 * 2 - a2 * 2 - r3 ** 2) / (-2 * a2 * r3), -1, 1))  # Sol6
+        phi2 = np.arccos(np.clip((a3**2 - a2**2 - r3**2) / (-2 * a2 * r3), -1, 1))  # Sol6
 
-        theta2 = phi1 + phi2  # Sol7
+        theta2 = phi1 + phi2# Sol7
 
-        phi3 = np.arccos(np.clip((r3 * 2 - a2 * 2 - a3 ** 2) / (-2 * a2 * a3), -1, 1))  # Sol8
+        phi3 = np.arccos(np.clip((r3**2 - a2**2 - a3**2) / (-2 * a2 * a3), -1, 1))  # Sol8
 
-        theta3 = np.pi - phi3  # Sol9
+        theta3 = phi3 - np.pi# Sol9
 
         # Convert angles from radians to degrees
-        theta1_deg = (theta1 / np.pi) * 180
-        theta2_deg = (theta2 / np.pi) * 180
-        theta3_deg = (theta3 / np.pi) * 180
+        theta1_deg = (np.around(theta1*180/np.pi,3))
+        theta2_deg = (np.around(theta2*180/np.pi,3))
+        theta3_deg = (np.around(theta3*180/np.pi,3))
 
         # Display the results in the output fields
         T1_output.config(state='normal')
@@ -308,7 +309,7 @@ def calculate_inverse():
     Articulated_Calculator.plot(q1,limits=[x1,x2,y1,y2,z1,z2])
 
 
-def reset_fields():
+def reset_field1():
     # Clear all entry fields and output fields
     a1_entry.delete(0, END)
     a2_entry.delete(0, END)
@@ -325,6 +326,8 @@ def reset_fields():
     Z_output.config(state='normal')
     Z_output.delete(0, END)
     Z_output.config(state='readonly')
+
+def reset_field2():
     a1_entry_inv.delete(0, END)
     a2_entry_inv.delete(0, END)
     a3_entry_inv.delete(0, END)
