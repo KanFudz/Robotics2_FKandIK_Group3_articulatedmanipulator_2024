@@ -324,7 +324,43 @@ Paki Fill Up
 <h2>
 
 ## VIII. Forward and Inverse Kinematics GUI calculator of Articulated Manipulator<a name="gui-calculator"></a></h2>
-Paki Fill Up
+
+## VIII. Articulated Manipulator Calculator
+
+### Description
+The Articulated Manipulator Calculator is a tool designed to facilitate kinematics calculations for articulated manipulators. This calculator provides a user-friendly interface for performing both forward and inverse kinematics analyses, enabling users to determine the position and orientation of the end-effector given the joint parameters or vice versa.
+
+### Key Features
+- **Forward Kinematics**: Calculates the position and orientation of the end-effector based on the joint parameters (link lengths and joint angles).
+  
+- **Inverse Kinematics**: Computes the joint parameters required to achieve a desired position and orientation of the end-effector.
+
+### Benefits
+- **Ease of Use**: The graphical user interface simplifies the input of parameters and visualization of results, making kinematics calculations more accessible.
+  
+- **Efficiency**: By automating kinematics calculations, the calculator reduces the time and effort required to analyze the manipulator's motion.
+  
+- **Visualization**: Users can visualize the manipulator's movements and configurations through the graphical interface, aiding in understanding and analysis.
+
+### Dependencies
+- **numpy**: Required for numerical computations.
+  
+- **matplotlib**: Used for visualization purposes.
+  
+- **roboticstoolbox**: A Python toolbox for robot manipulators, providing functions for kinematics calculations.
+  
+- **tkinter**: Used for creating the graphical user interface.
+
+### Usage
+1. Enter the link lengths and joint angles into the designated input fields.
+  
+2. Click the appropriate button to perform either forward or inverse kinematics calculations.
+  
+3. View the results displayed in the output fields, which represent the position and orientation of the end-effector or the joint parameters, depending on the selected calculation mode.
+
+### Note
+Ensure that all input parameters are provided accurately to obtain correct kinematics solutions. Additionally, familiarize yourself with the limitations and assumptions of kinematics models used in the calculations.
+
 
 
 
