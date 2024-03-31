@@ -351,13 +351,6 @@ The Articulated Manipulator Calculator is a tool designed to facilitate kinemati
   
 - **tkinter**: Used for creating the graphical user interface.
 
-### Usage
-1. Enter the link lengths and joint angles into the designated input fields.
-  
-2. Click the appropriate button to perform either forward or inverse kinematics calculations.
-  
-3. View the results displayed in the output fields, which represent the position and orientation of the end-effector or the joint parameters, depending on the selected calculation mode.
-
 ### Note
 Ensure that all input parameters are provided accurately to obtain correct kinematics solutions. Additionally, familiarize yourself with the limitations and assumptions of kinematics models used in the calculations.
 
