@@ -83,6 +83,8 @@ The following are ideal DOF
 - Planar Manipulator: 3 DOF
 - Spatial Manipulator: 6 DOF
 
+<br>
+
 Type of Manipulator Based on the number of DOF
 | Manipulator Type | DOF (f) |
 | --------------- | --------------- |
@@ -102,6 +104,12 @@ Type of Manipulator Based on the number of DOF
 | Cylindrical (C)    | 2    | N/A    | 4 |
 | Universal (U)    | 2    | N/A    | 4 |
 | Spherical (S)    | 3    | N/A    | 3 |
+
+<br>
+
+DOF vs Mobility
+- If the DOF of a manipulator is more than that ideal or based on the calculation indicates a Redundant Manipulator, it will be called MOBILITY.
+
 
 <br>
 
