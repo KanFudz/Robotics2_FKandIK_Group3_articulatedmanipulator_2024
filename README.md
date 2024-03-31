@@ -4,8 +4,8 @@
    
 </div>
 
- <hr>
 <br>
+ <hr>
 
 ## Project Course Portfolio
 
