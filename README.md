@@ -88,7 +88,7 @@ The concept of degrees of freedom is essential for designing and controlling rob
 
 <h3>
  
-The following are ideal DOF
+The following are ideal DOF:
 </h3>
 - A point in 2D: 2 DOF; in 3D: 3 DOF<br>
 - A Rigid Body in 3D: 6 DOF<br>
