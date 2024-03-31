@@ -1,5 +1,7 @@
-<h1 style="font-size: xx-large; text-align: center;">FORWARD AND INVERSE KINEMATICS OF ARTICULATED MANIPULATOR</h1>
-
+<!-- Centered main title with increased font size -->
+<p align="center">
+   <h1 style="font-size: xx-large;">FORWARD AND INVERSE KINEMATICS OF ARTICULATED MANIPULATOR</h1>
+</p>
 
 <hr>
 ## Project Course Portfolio
