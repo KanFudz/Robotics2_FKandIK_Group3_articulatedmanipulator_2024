@@ -78,10 +78,10 @@ In robotics, degrees of freedom play a significant role in characterizing the mo
 The concept of degrees of freedom is essential for designing and controlling robots effectively. It helps engineers and researchers determine the kinematic structure of a robot, understand its workspace, and develop algorithms for motion planning and control. The degrees of freedom of a robot influence its agility, versatility, and ability to perform various tasks in different environments.
 
 | Joint Type | DOF (f) |Constraints c between two planar rigid bodies | Constraints c between two spatial rigid bodies |
-| --------------- | --------------- | --------------- | 5 |
+| --------------- | --------------- | --------------- | --------------- |
 | Revolute (R)    | 1    | 2    | 5 |
 | Prismatic (P)	    | 1    | 2    | 5 |
-| Helical (H)    | 1    | N/A    | 4 |
+| Helical (H)    | 1    | N/A    | 5 |
 | Helical (H)    | 2    | N/A    | 4 |
 | Helical (H)    | 2    | N/A    | 4 |
 | Helical (H)    | 3    | N/A    | 3 |
