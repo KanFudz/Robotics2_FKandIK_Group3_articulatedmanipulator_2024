@@ -53,8 +53,8 @@ The development of articulated manipulators traces back to the mid-20th century,
 
 ### Advancements in Robotics Technology
 Articulated manipulators have played a pivotal role in advancing robotics technology. Over the decades, advancements in materials, sensors, and control systems have led to the evolution of these manipulators into highly sophisticated and versatile robotic systems. Today, they are integral to automation across various industries, driving innovation, improving efficiency, and expanding the possibilities of robotics applications.
+
 </div>
- </hr>
 
  <hr>
 ## **III. Degrees of Freedom of Articulated Manipulator**<a name="degrees-of-freedom"></a>
