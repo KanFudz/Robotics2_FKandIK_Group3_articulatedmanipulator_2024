@@ -108,7 +108,7 @@ Type of Manipulator Based on the number of DOF
 <br>
 
 DOF vs Mobility
-- If the DOF of a manipulator is more than that ideal or based on the calculation indicates a Redundant Manipulator, it will be called MOBILITY.
+- If the DOF of a manipulator is more than the ideal or based on the calculation indicates a Redundant Manipulator, it will be called **MOBILITY**.
 
 
 <br>
