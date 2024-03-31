@@ -204,13 +204,6 @@ The Denavit-Hartenberg (D-H) frame assignment is commonly used in robotics to de
 
 
 <h3>
-### D-H Notation
-</h3>
-
-**Jacques Denavit** and **Richard Hartenberg** introduced this convention in 1955 to standardize the coordinate frames for spatial linkages. D-H Notation is used to solve the forward kinematics of a mechanical manipulator.
-
-
-<h3>
 
 ### Frames
 </h3>
@@ -260,7 +253,25 @@ ANGELO PALAGAY DITO
 
 The Denavit-Hartenberg (D-H) parameters are used to describe the kinematic properties of robotic manipulators. They provide a standardized method for defining the coordinate frames and transformations between adjacent links in a manipulator.
 
+<h3>
+ 
+### D-H Notation
+</h3>
+
+**Jacques Denavit** and **Richard Hartenberg** introduced this convention in 1955 to standardize the coordinate frames for spatial linkages. D-H Notation is used to solve the forward kinematics of a mechanical manipulator.
+
+<h3>
+
+### Steps in Denavit-Hartenberg Notation</h3>
+1. Assign the frames according to the 4 D-H Frame Rules.
+2. Construct and fill out the D-H Parametric Table.
+3. Plug the table into the Homogeneous Transformation Matrix form.
+4. Multiply the matrices together.
+
+<h3>
+
 ### Purpose of D-H Parametric Table
+</h3>
 
 The D-H parametric table organizes the D-H parameters associated with each joint of the manipulator. These parameters include:
 
@@ -279,11 +290,11 @@ The D-H parametric table consists of rows corresponding to each joint of the man
 
 ### Example D-H Parametric Table
 
-| Joint | \( α \) | \( a \) | \( d \) | \( θ \) |
+| n | \( θ \) | \( α \) | \( d \) | \( r \) |
 |-------|--------|-------|-------|-------|
-| 1     | \( α_1 \) | \( a_1 \) | \( d_1 \) | \( θ_1 \) |
-| 2     | \( α_2 \) | \( a_2 \) | \( d_2 \) | \( θ_2 \) |
-| 3     | \( α_3 \) | \( a_3 \) | \( d_3 \) | \( θ_3 \) |
+| 1     |  |  |  |  |
+| 2     |  |  |  |  |
+| 3     |  |  |  |  |
 | ...   | ...    | ...   | ...   | ...   |
 
 In this table:
