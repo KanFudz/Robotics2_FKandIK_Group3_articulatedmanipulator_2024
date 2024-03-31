@@ -263,13 +263,10 @@ The Denavit-Hartenberg (D-H) parameters are used to describe the kinematic prope
 
 The D-H parametric table organizes the D-H parameters associated with each joint of the manipulator. These parameters include:
 
-1. **\( α \)**: Represents the rotation around \( X_n \) required to align \( Z_{n-1} \) with \( Z_n \), where \( α \) is the rotation about \( X_n \) for the joint..
-
-2. **\( r \)**: Represents the distance from the origin of frame \( n-1 \) to frame \( n \) along the \( X_n \) direction.
-
-3. **\( d \)**: Represents the distance from the origin of frame \( n-1 \) to frame \( n \) along the \( Z_{n-1} \) direction. For prismatic joints, \( d \) is the joint variable.
-
-4. **\( θ \)**: Rotation around \( Z_{n-1} \) required to align \( X_{n-1} \) with \( X_n \), with \( θ_i \) as the joint variable for revolute or twisting joints.
+1. **\( α \)**: Represents the rotation around \( X_n \) required to align \( Z_{n-1} \) with \( Z_n \), where \( α \) is the rotation about \( X_n \) for the joint.<br>
+2. **\( r \)**: Represents the distance from the origin of frame \( n-1 \) to frame \( n \) along the \( X_n \) direction.<br>
+3. **\( d \)**: Represents the distance from the origin of frame \( n-1 \) to frame \( n \) along the \( Z_{n-1} \) direction. For prismatic joints, \( d \) is the joint variable.<br>
+4. **\( θ \)**: Rotation around \( Z_{n-1} \) required to align \( X_{n-1} \) with \( X_n \), with \( θ \) as the joint variable for revolute or twisting joints.<br>
 
 ### Components of the D-H Parametric Table
 
