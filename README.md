@@ -115,7 +115,13 @@ The following are ideal DOF
 **Grubler's Criterion for Mobility/DOF**
 | **Planar Manipulator** | **Spatial Manipulator** |
 | --------------- | --------------- |
-| M = 3n - i = 1m(3 - Ci)    | M = 6n - i = 1m(6 - Ci)    |
+| $$
+M = 3n - \sum_{i=1}^{m}(3 - C_i)
+$$
+| $$
+M = 3n - \sum_{i=1}^{m}(3 - C_i)
+$$
+    |
  	
 
 
