@@ -253,9 +253,49 @@ ANGELO PALAGAY DITO
 
 
 <br>
+<h2>
+ 
+## V. D-H Parametric Table of Articulated Manipulator<a name="parametric-table"></a></h2>
 
-## V. D-H Parametric Table of Articulated Manipulator<a name="parametric-table"></a>
-Paki Fill Up
+The Denavit-Hartenberg (D-H) parameters are used to describe the kinematic properties of robotic manipulators. They provide a standardized method for defining the coordinate frames and transformations between adjacent links in a manipulator.
+
+### Purpose of D-H Parametric Table
+
+The D-H parametric table organizes the D-H parameters associated with each joint of the manipulator. These parameters include:
+
+1. **\( α \)**: Represents the twist angle between successive Z-axes.
+2. **\( r \)**: Represents the link length between successive X-axes.
+3. **\( d \)**: Represents the link offset along the previous Z-axis.
+4. **\( θ \)**: Represents the joint angle about the previous Z-axis.
+
+### Components of the D-H Parametric Table
+
+The D-H parametric table consists of rows corresponding to each joint of the manipulator. Each row includes the D-H parameters for that joint.
+
+### Example D-H Parametric Table
+
+| Joint | \( α \) | \( a \) | \( d \) | \( θ \) |
+|-------|--------|-------|-------|-------|
+| 1     | \( α_1 \) | \( a_1 \) | \( d_1 \) | \( θ_1 \) |
+| 2     | \( α_2 \) | \( a_2 \) | \( d_2 \) | \( θ_2 \) |
+| 3     | \( α_3 \) | \( a_3 \) | \( d_3 \) | \( θ_3 \) |
+| ...   | ...    | ...   | ...   | ...   |
+
+In this table:
+- \( α_i \): Twist angle between the \( Z_{i-1} \) and \( Z_i \) axes.
+- \( a_i \): Link length between the \( X_{i-1} \) and \( X_i \) axes.
+- \( d_i \): Link offset along the \( Z_{i-1} \) axis.
+- \( θ_i \): Joint angle about the \( Z_{i-1} \) axis.
+
+Each row corresponds to a joint in the manipulator, and the parameters define the geometric relationship between adjacent links.
+
+### Notes
+- The number of rows in the D-H parametric table corresponds to the number of joints in the manipulator.
+- The values of \( α \), \( a \), \( d \), and \( θ \) are determined based on the physical characteristics and configuration of the manipulator.
+
+
+
+
 
 
 
