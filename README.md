@@ -273,7 +273,7 @@ The Denavit-Hartenberg (D-H) parameters are used to describe the kinematic prope
 ### Purpose of D-H Parametric Table
 </h3>
 
-The D-H parametric table organizes the D-H parameters associated with each joint of the manipulator. These parameters include:
+The D-H parametric table organizes the D-H parameters associated with each manipulator joint. These parameters include:
 
 1. "**α**" is the rotation around X<sub>n</sub> required to align Z<sub>n-1</sub> with Z<sub>n</sub>, where α is the rotation about X<sub>n</sub> for the joint.
 
