@@ -178,7 +178,7 @@ Rule 3: Each x-axis must intersect the z-axis of the frame before it.<br>
 Rules for complying with Rule 3:
  - Rotate the axis until it hits the other.
  - Or translate the axis until it hits the other.
-<br>
+
 Rule 4: All frames must follow the right-hand rule.
 ![right hand rule](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157684612/b10393b5-6965-4cda-9c2b-212432bfe3c8)
 
