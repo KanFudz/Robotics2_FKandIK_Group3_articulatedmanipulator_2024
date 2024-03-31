@@ -21,48 +21,71 @@ def Forward_Kinematics():
     a1_label.grid(row=1, column=0, sticky=W)
     a1_entry = Entry(root, width=10)
     a1_entry.grid(row=1, column=1, padx=5, pady=5)
+    a1_label =  Label(root,text=('cm'), padx=5, pady=5, bg='#012228', fg='white')
+    a1_label.grid(row=1, column=2, sticky=W)
+
 
     a2_label = Label(root, text="a2:", padx=5, pady=5, bg='#032b28', fg='white')
     a2_label.grid(row=2, column=0, sticky=W)
     a2_entry = Entry(root, width=10)
     a2_entry.grid(row=2, column=1, padx=5, pady=5)
+    a2_label =  Label(root,text=('cm'), padx=5, pady=5, bg='#032b28', fg='white')
+    a2_label.grid(row=2, column=2, sticky=W)
+
+
 
     a3_label = Label(root, text="a3:", padx=5, pady=5, bg='#0d3f2e', fg='white')
     a3_label.grid(row=3, column=0, sticky=W)
     a3_entry = Entry(root, width=10)
     a3_entry.grid(row=3, column=1, padx=5, pady=5)
+    a3_label = Label(root, text="cm", padx=5, pady=5, bg='#0d3f2e', fg='white')
+    a3_label.grid(row=3, column=2, sticky=W)
 
     # Create entry fields for joint variables
     T1_label = Label(root, text="T1:", padx=5, pady=5, bg='#1f563e', fg='white')
     T1_label.grid(row=4, column=0, sticky=W)
     T1_entry = Entry(root, width=10)
     T1_entry.grid(row=4, column=1, padx=5, pady=5)
+    T1_label = Label(root, text="°", padx=5, pady=5, bg='#1f563e', fg='white')
+    T1_label.grid(row=4, column=2, sticky=W)
+
 
     T2_label = Label(root, text="T2:", padx=5, pady=5, bg='#136345', fg='white')
     T2_label.grid(row=5, column=0, sticky=W)
     T2_entry = Entry(root, width=10)
     T2_entry.grid(row=5, column=1, padx=5, pady=5)
+    T2_label = Label(root, text="°", padx=5, pady=5, bg='#136345', fg='white')
+    T2_label.grid(row=5, column=2, sticky=W)
+
 
     T3_label = Label(root, text="T3:", padx=5, pady=5, bg='#117955', fg='white')
     T3_label.grid(row=6, column=0, sticky=W)
     T3_entry = Entry(root, width=10)
     T3_entry.grid(row=6, column=1, padx=5, pady=5)
+    T3_label = Label(root, text="°", padx=5, pady=5, bg='#117955', fg='white')
+    T3_label.grid(row=6, column=2, sticky=W)
 
     # Create output fields for position vector components
     X_label = Label(root, text="X:", padx=5, pady=5, bg='#3e8e6f')
     X_label.grid(row=7, column=0, sticky=W)
     X_output = Entry(root, width=10, state='readonly')
     X_output.grid(row=7, column=1, padx=5, pady=5)
+    X_label = Label(root, text="cm", padx=5, pady=5, bg='#3e8e6f')
+    X_label.grid(row=7, column=2, sticky=W)
 
     Y_label = Label(root, text="Y:", padx=5, pady=5, bg='#539d85')
     Y_label.grid(row=8, column=0, sticky=W)
     Y_output = Entry(root, width=10, state='readonly')
     Y_output.grid(row=8, column=1, padx=5, pady=5)
+    Y_label = Label(root, text="cm", padx=5, pady=5, bg='#539d85')
+    Y_label.grid(row=8, column=2, sticky=W)
 
     Z_label = Label(root, text="Z:", padx=5, pady=5, bg='#65ae91')
     Z_label.grid(row=9, column=0, sticky=W)
     Z_output = Entry(root, width=10, state='readonly')
     Z_output.grid(row=9, column=1, padx=5, pady=5)
+    Z_label = Label(root, text="cm", padx=5, pady=5, bg='#65ae91')
+    Z_label.grid(row=9, column=2, sticky=W)
 
     # Create two buttons
     calculate_btn = Button(root, text="Calculate", command=calculate_forward)
@@ -77,58 +100,77 @@ def Inverse_Kinematics():
 
     # Create entry fields for link lengths
     a1_label_inv = Label(root, text="a1:", padx=5, pady=5, bg='#220203', fg='white')
-    a1_label_inv.grid(row=1, column=2, sticky=W)
+    a1_label_inv.grid(row=1, column=4, sticky=W)
     a1_entry_inv = Entry(root, width=10)
-    a1_entry_inv.grid(row=1, column=3, padx=5, pady=5)
+    a1_entry_inv.grid(row=1, column=5, padx=5, pady=5)
+    a1_label_inv = Label(root, text="cm", padx=5, pady=5, bg='#220203', fg='white')
+    a1_label_inv.grid(row=1, column=6, sticky=W)
+
 
     a2_label_inv = Label(root, text="a2:", padx=5, pady=5, bg='#380506', fg='white')
-    a2_label_inv.grid(row=2, column=2, sticky=W)
+    a2_label_inv.grid(row=2, column=4, sticky=W)
     a2_entry_inv = Entry(root, width=10)
-    a2_entry_inv.grid(row=2, column=3, padx=5, pady=5)
+    a2_entry_inv.grid(row=2, column=5, padx=5, pady=5)
+    a2_label_inv = Label(root, text="cm", padx=5, pady=5, bg='#380506', fg='white')
+    a2_label_inv.grid(row=2, column=6, sticky=W)
 
     a3_label_inv = Label(root, text="a3:", padx=5, pady=5, bg='#540f0d', fg='white')
-    a3_label_inv.grid(row=3, column=2, sticky=W)
+    a3_label_inv.grid(row=3, column=4, sticky=W)
     a3_entry_inv = Entry(root, width=10)
-    a3_entry_inv.grid(row=3, column=3, padx=5, pady=5)
+    a3_entry_inv.grid(row=3, column=5, padx=5, pady=5)
+    a3_label_inv = Label(root, text="cm", padx=5, pady=5, bg='#540f0d', fg='white')
+    a3_label_inv.grid(row=3, column=6, sticky=W)
 
     # Create entry fields for position vector components
     X_label = Label(root, text="X:", padx=5, pady=5, bg='#6b0500', fg='white')
-    X_label.grid(row=4, column=2, sticky=W)
+    X_label.grid(row=4, column=4, sticky=W)
     X_entry = Entry(root, width=10)
-    X_entry.grid(row=4, column=3, padx=5, pady=5)
+    X_entry.grid(row=4, column=5, padx=5, pady=5)
+    X_label = Label(root, text="cm", padx=5, pady=5, bg='#6b0500', fg='white')
+    X_label.grid(row=4, column=6, sticky=W)
 
     Y_label = Label(root, text="Y:", padx=5, pady=5, bg='#87080a', fg='white')
-    Y_label.grid(row=5, column=2, sticky=W)
+    Y_label.grid(row=5, column=4, sticky=W)
     Y_entry = Entry(root, width=10)
-    Y_entry.grid(row=5, column=3, padx=5, pady=5)
+    Y_entry.grid(row=5, column=5, padx=5, pady=5)
+    Y_label = Label(root, text="cm", padx=5, pady=5, bg='#87080a', fg='white')
+    Y_label.grid(row=5, column=6, sticky=W)
 
     Z_label = Label(root, text="Z:", padx=5, pady=5, bg='#980b06', fg='white')
-    Z_label.grid(row=6, column=2, sticky=W)
+    Z_label.grid(row=6, column=4, sticky=W)
     Z_entry = Entry(root, width=10)
-    Z_entry.grid(row=6, column=3, padx=5, pady=5)
+    Z_entry.grid(row=6, column=5, padx=5, pady=5)
+    Z_label = Label(root, text="cm", padx=5, pady=5, bg='#980b06', fg='white')
+    Z_label.grid(row=6, column=6, sticky=W)
 
     # Create output fields for joint variables
     T1_label = Label(root, text="T1:", padx=5, pady=5, bg='#ae120a')
-    T1_label.grid(row=7, column=2, sticky=W)
+    T1_label.grid(row=7, column=4, sticky=W)
     T1_output = Entry(root, width=10, state='readonly')
-    T1_output.grid(row=7, column=3, padx=5, pady=5)
+    T1_output.grid(row=7, column=5, padx=5, pady=5)
+    T1_label = Label(root, text="°", padx=5, pady=5, bg='#ae120a')
+    T1_label.grid(row=7, column=6, sticky=W)
 
     T2_label = Label(root, text="T2:", padx=5, pady=5, bg='#c02a2a')
-    T2_label.grid(row=8, column=2, sticky=W)
+    T2_label.grid(row=8, column=4, sticky=W)
     T2_output = Entry(root, width=10, state='readonly')
-    T2_output.grid(row=8, column=3, padx=5, pady=5)
+    T2_output.grid(row=8, column=5, padx=5, pady=5)
+    T2_label = Label(root, text="°", padx=5, pady=5, bg='#c02a2a')
+    T2_label.grid(row=8, column=6, sticky=W)
 
     T3_label = Label(root, text="T3:", padx=5, pady=5, bg='#d04346')
-    T3_label.grid(row=9, column=2, sticky=W)
+    T3_label.grid(row=9, column=4, sticky=W)
     T3_output = Entry(root, width=10, state='readonly')
-    T3_output.grid(row=9, column=3, padx=5, pady=5)
+    T3_output.grid(row=9, column=5, padx=5, pady=5)
+    T3_label = Label(root, text="°", padx=5, pady=5, bg='#d04346')
+    T3_label.grid(row=9, column=6, sticky=W)
 
     # Create two buttons
     calculate_btn_inv = Button(root, text="Calculate", command=calculate_inverse)
-    calculate_btn_inv.grid(row=10, column=2, padx=5, pady=5)
+    calculate_btn_inv.grid(row=10, column=4, padx=5, pady=5)
 
     reset_btn_inv = Button(root, text="Reset", bg='#AE2012', command=reset_field2)
-    reset_btn_inv.grid(row=10, column=3, padx=5, pady=5)
+    reset_btn_inv.grid(row=10, column=5, padx=5, pady=5)
 
 
 def calculate_forward():
@@ -347,7 +389,8 @@ forward_btn = Button(root, text="Forward Kinematics", bg='#0A9396', command=Forw
 forward_btn.grid(row=0, column=0, padx=5, pady=5)
 
 inverse_btn = Button(root, text="Inverse Kinematics", bg='#9B2226',command=Inverse_Kinematics)
-inverse_btn.grid(row=0, column=2, padx=5, pady=5)
+inverse_btn.grid(row=0, column=4, padx=5, pady=5)
+
 
 # Run the main event loop
 root.mainloop()
