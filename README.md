@@ -48,19 +48,20 @@ Manufacturing: Assembling products on assembly lines, handling materials in prod
 Construction: Handling heavy materials, assisting in building structures, and executing tasks in hazardous environments.
 <br>
 Research: Conducting experiments, exploring environments inaccessible to humans, and developing new robotics technologies.
-
+<br>
+<br>
 <h3>Components of an Articulated Manipulator</h3>
 Twisting Joint: The twisting joint allows continuous rotation around an axis, enabling the manipulator to twist or rotate freely. It provides the manipulator with the ability to orient itself and adjust its position dynamically, enhancing its adaptability to different tasks and environments.
 <br>
-<br>
 Revolute Joint: A revolute joint facilitates rotation around a fixed axis within a limited range or angle. Similar to the hinge of a door, it enables the manipulator to bend, pivot, and articulate at specific points. This joint adds flexibility to the manipulator's movements, allowing it to reach various positions and orientations within its workspace.
 <br>
-<br>
 Revolute Joint: Another revolute joint further enhances the manipulator's articulation and maneuverability. Operating independently, it provides additional degrees of freedom, expanding the manipulator's dexterity and agility. With multiple revolute joints, the manipulator gains increased versatility, making it capable of performing complex tasks requiring precise positioning and manipulation.
-
+<br>
+<br>
 <h3>Historical Context</h3>
 The development of articulated manipulators traces back to the mid-20th century, with significant advancements occurring in robotics research and industrial automation. Early manipulators were primarily designed for repetitive tasks in manufacturing environments. One notable example is the "Unimate," developed by George Devol and Joseph Engelberger in the 1950s, which became the first industrial robot to be employed in production lines.
-
+<br>
+<br>
 <h3>Advancements in Robotics Technology</h3>
 Articulated manipulators have played a pivotal role in advancing robotics technology. Over the decades, advancements in materials, sensors, and control systems have led to the evolution of these manipulators into highly sophisticated and versatile robotic systems. Today, they are integral to automation across various industries, driving innovation, improving efficiency, and expanding the possibilities of robotics applications.
 
