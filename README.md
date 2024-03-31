@@ -77,6 +77,11 @@ In robotics, degrees of freedom play a significant role in characterizing the mo
 
 The concept of degrees of freedom is essential for designing and controlling robots effectively. It helps engineers and researchers determine the kinematic structure of a robot, understand its workspace, and develop algorithms for motion planning and control. The degrees of freedom of a robot influence its agility, versatility, and ability to perform various tasks in different environments.
 
+| Joint Type | Constraints c between two planar rigid bodies | Constraints c between two spatial rigid bodies |
+| --------------- | --------------- | --------------- |
+| Revolute (R)    | Row 1 Cell 2    | Row 1 Cell 3    |
+| Prismatic (P)	    | Row 2 Cell 2    | Row 2 Cell 3    |
+| Helical (H)    | Row 3 Cell 2    | Row 3 Cell 3    |
 
 
 <br>
