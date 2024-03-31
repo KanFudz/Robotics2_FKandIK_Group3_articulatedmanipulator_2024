@@ -5,7 +5,6 @@
 </div>
 
  <hr>
-
 <br>
 
 ## Project Course Portfolio
