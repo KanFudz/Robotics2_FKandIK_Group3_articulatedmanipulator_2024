@@ -22,7 +22,7 @@
  <br>
  VIII. Forward and Inverse Kinematics GUI calculator of Articulated Manipulator (Description and Computation)
  <br>
- IX. References
+ IX. Reference
  <hr>
 
 <h2>
@@ -53,7 +53,7 @@ Paki Fill Up
 <h2>
 VI. HTM of Articulated Manipulator
 </h2>
-Paki Fill Up
+Paki Fill  up
 
 <h2>
 VII. Inverse Kinematics of Articulated Manipulator
