@@ -55,19 +55,15 @@ Articulated manipulators have played a pivotal role in advancing robotics techno
 
 </div>
 
- <hr>
 ## <strong>III. Degrees of Freedom of Articulated Manipulator</strong><a name="degrees-of-freedom"></a>
 Paki Fill Up
 
- <hr>
 ## <strong>IV. Kinematic Diagram and D-H Frame Assignment of Articulated Manipulator</strong><a name="kinematic-diagram"></a>
 Paki Fill Up
 
- <hr>
 ## <strong>V. D-H Parametric Table of Articulated Manipulator</strong><a name="parametric-table"></a>
 Paki Fill Up
 
- <hr>
 ## <strong>VI. HTM of Articulated Manipulator</strong><a name="htm"></a>
 Paki Fill  up
 
@@ -75,10 +71,8 @@ Paki Fill  up
 ## <strong>VII. Inverse Kinematics of Articulated Manipulator</strong><a name="inverse-kinematics"></a>
 Paki Fill Up
 
- <hr>
 ## <strong>VIII. Forward and Inverse Kinematics GUI calculator of Articulated Manipulator</strong><a name="gui-calculator"></a>
 Paki Fill Up
 
- <hr>
 ## <strong>IX. References</strong><a name="references"></a>
 Paki Fill Up
