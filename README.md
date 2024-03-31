@@ -1,4 +1,6 @@
-<div style="text-align: center;">## FORWARD AND INVERSE KINEMATICS OF ARTICULATED MANIPULATOR</div>
+<div style="text-align: center;">
+ ## FORWARD AND INVERSE KINEMATICS OF ARTICULATED MANIPULATOR
+</div>
 
 ## Project Course Portfolio
 
