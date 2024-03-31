@@ -288,32 +288,14 @@ The D-H parametric table organizes the D-H parameters associated with each joint
 
 The D-H parametric table consists of rows corresponding to each joint of the manipulator. Each row includes the D-H parameters for that joint.
 
-### Example D-H Parametric Table
+### D-H Parametric Table of Articulated Manipulator
 
-| n | \( θ \) | \( α \) | \( d \) | \( r \) |
-|-------|--------|-------|-------|-------|
-| 1     |  |  |  |  |
-| 2     |  |  |  |  |
-| 3     |  |  |  |  |
-| ...   | ...    | ...   | ...   | ...   |
+ANGELO PALAGAY DITO
 
 In this table:
-- \( α_i \): Twist angle between the \( Z_{i-1} \) and \( Z_i \) axes.
-- \( a_i \): Link length between the \( X_{i-1} \) and \( X_i \) axes.
-- \( d_i \): Link offset along the \( Z_{i-1} \) axis.
-- \( θ_i \): Joint angle about the \( Z_{i-1} \) axis.
+description to
 
 Each row corresponds to a joint in the manipulator, and the parameters define the geometric relationship between adjacent links.
-
-### Notes
-- The number of rows in the D-H parametric table corresponds to the number of joints in the manipulator.
-- The values of \( α \), \( a \), \( d \), and \( θ \) are determined based on the physical characteristics and configuration of the manipulator.
-
-
-
-
-
-
 
 <br>
 
