@@ -82,9 +82,9 @@ The concept of degrees of freedom is essential for designing and controlling rob
 | Revolute (R)    | 1    | 2    | 5 |
 | Prismatic (P)	    | 1    | 2    | 5 |
 | Helical (H)    | 1    | N/A    | 5 |
-| Helical (H)    | 2    | N/A    | 4 |
-| Helical (H)    | 2    | N/A    | 4 |
-| Helical (H)    | 3    | N/A    | 3 |
+| Cylindrical (C)    | 2    | N/A    | 4 |
+| Universal (U)    | 2    | N/A    | 4 |
+| Spherical (S)    | 3    | N/A    | 3 |
 
 <br>
 
