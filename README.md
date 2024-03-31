@@ -163,7 +163,9 @@ The Denavit-Hartenberg (D-H) frame assignment is commonly used in robotics to de
 
 ### Example Kinematic Diagram and D-H Frame Assignment
 
-Below is an example kinematic diagram and D-H frame assignment of a simple robotic manipulator with revolute joints:
+Below is the kinematic diagram and D-H frame assignment of the articulated manipulator with a twisting joint and 2 revolute joints:
+
+ANGELO PALAGAY DITO
 
 
 
