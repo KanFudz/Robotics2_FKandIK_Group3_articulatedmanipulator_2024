@@ -128,6 +128,7 @@ The following are ideal DOF
 
 **DOF vs Mobility** 
 </h3>
+
 - If the DOF of a manipulator is more than the ideal or based on the calculation indicates a Redundant Manipulator, it will be called **MOBILITY**.
 
 <br>
