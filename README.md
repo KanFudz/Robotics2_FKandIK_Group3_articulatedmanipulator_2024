@@ -3,5 +3,7 @@
     FORWARD AND INVERSE KINEMATICS OF ARTICULATED MANIPULATOR
 </h1>
 </p>
-<hr>
-testing
+<h2>
+    Project Course Portfolio
+</h2>
+
