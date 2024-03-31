@@ -6,7 +6,7 @@
 <h2>
     Project Course Portfolio
 </h2>
- [I. Abstract of the Project](doc:linking-to-pages#anchor-link)
+ [I. Abstract of the Project] (I. Abstract of the Project)
  <br>
  II. Introduction of the Project
  <br>
@@ -26,7 +26,6 @@
  <hr>
 
 <h3>
-    [link](doc:linking-to-pages#anchor-links)
     I. Abstract of the Project
 </h3>
  
