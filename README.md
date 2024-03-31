@@ -1,10 +1,7 @@
-<style>
-  .main-title {
-    font-size: xx-large;
-    text-align: center;
-  }
-</style>
-<h1 class="main-title">FORWARD AND INVERSE KINEMATICS OF ARTICULATED MANIPULATOR</h1>
+<div style="text-align: center;">
+   <h1 style="font-size: xx-large; text-align: center;">FORWARD AND INVERSE KINEMATICS OF ARTICULATED MANIPULATOR</h1>
+</div>
+
 
 
  <hr>
