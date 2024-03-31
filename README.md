@@ -134,7 +134,6 @@ ANGELO PALAGAY DITO NUNG COMPUTATION
 <br>
 
 ## IV. Kinematic Diagram and D-H Frame Assignment of Articulated Manipulator<a name="kinematic-diagram"></a>
-## IV. Kinematic Diagram and D-H Frame Assignment of Articulated Manipulator
 
 In robotics, a kinematic diagram is a schematic representation used to visualize the structure and motion of a robotic manipulator. It illustrates the arrangement of joints and links in the manipulator, as well as the direction of motion allowed at each joint.
 
