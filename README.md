@@ -1,12 +1,12 @@
 <h1>
     <p align="center">
-    FORWARD AND INVERSE KINEMATICS OF ARTICULATED MANIPULATOR
+    ** FORWARD AND INVERSE KINEMATICS OF ARTICULATED MANIPULATOR **
 </h1>
 </p>
 <h2>
     Project Course Portfolio
 </h2>
- [I. Abstract of the Project] ([I. Abstract of the Project](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/blob/main/README.md))
+ [I. Abstract of the Project] (https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/blob/main/README.md)
  <br>
  II. Introduction of the Project
  <br>
