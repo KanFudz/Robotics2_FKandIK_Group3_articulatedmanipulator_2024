@@ -40,16 +40,21 @@ Welcome to the introduction of the Articulated Manipulator! In this document, we
 
 <h3>Purpose and Use</h3>
 Articulated manipulators are versatile robotic systems designed for precise and flexible manipulation tasks in various industries. Their primary purpose is to handle objects, perform assembly tasks, and execute complex maneuvers with accuracy and efficiency. These manipulators find applications in:
-
+<br>
+<br>
 Manufacturing: Assembling products on assembly lines, handling materials in production processes, and performing quality control inspections.
+<br>
 Construction: Handling heavy materials, assisting in building structures, and executing tasks in hazardous environments.
+<br>
 Research: Conducting experiments, exploring environments inaccessible to humans, and developing new robotics technologies.
 
 <h3>Components of an Articulated Manipulator</h3>
 Twisting Joint: The twisting joint allows continuous rotation around an axis, enabling the manipulator to twist or rotate freely. It provides the manipulator with the ability to orient itself and adjust its position dynamically, enhancing its adaptability to different tasks and environments.
-
+<br>
+<br>
 Revolute Joint: A revolute joint facilitates rotation around a fixed axis within a limited range or angle. Similar to the hinge of a door, it enables the manipulator to bend, pivot, and articulate at specific points. This joint adds flexibility to the manipulator's movements, allowing it to reach various positions and orientations within its workspace.
-
+<br>
+<br>
 Revolute Joint: Another revolute joint further enhances the manipulator's articulation and maneuverability. Operating independently, it provides additional degrees of freedom, expanding the manipulator's dexterity and agility. With multiple revolute joints, the manipulator gains increased versatility, making it capable of performing complex tasks requiring precise positioning and manipulation.
 
 <h3>Historical Context</h3>
