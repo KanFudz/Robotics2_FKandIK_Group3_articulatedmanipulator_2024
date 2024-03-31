@@ -141,6 +141,7 @@ The following are ideal DOF
 <br>
 
 <h3>
+ 
 **Grubler's Criterion for Mobility/DOF of Planar Manipulator**
 </h3>
 
@@ -150,6 +151,7 @@ $$
 
 
 <h3>
+ 
 **Grubler's Criterion for Mobility/DOF of Spherical Manipulator**
 </h3>
 
