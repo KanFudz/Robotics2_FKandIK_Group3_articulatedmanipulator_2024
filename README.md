@@ -29,39 +29,50 @@
 
 
 <br>
-
-## I. Abstract of the Project<a name="abstract"></a>
+<h2>
+ 
+## I. Abstract of the Project<a name="abstract"></a></h2>
 Your abstract content goes here. Replace this text with your actual abstract.
 
 
 
 <br>
+<h2>
 
-## II. Introduction of the Project<a name="introduction"></a>
+## II. Introduction of the Project<a name="introduction"></a></h2>
 
 ![432889743_458344376635490_3344111488579056072_n](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157684612/4990b5fd-4de6-4f8b-9e64-4fab57a77057)
 
 <div style="text-align: justify;">
 
-### Introduction to Articulated Manipulator or Anthropomorphic Manipulator
+<h3>
+
+### Introduction to Articulated Manipulator or Anthropomorphic Manipulator</h3>
  Welcome to the introduction of the Articulated Manipulator! In this section, we'll explore the fundamental components and functionalities of an articulated manipulator with three joint variables: twisting joint, revolute joint, and revolute joint.
 
-### Purpose and Use
+<h3>
+ 
+### Purpose and Use</h3>
  Articulated manipulators are versatile robotic systems designed for precise and flexible manipulation tasks in various industries. Their primary purpose is to handle objects, perform assembly tasks, and execute complex maneuvers with accuracy and efficiency. These manipulators find applications in:
 
 - Manufacturing: Assembling products on assembly lines, handling materials in production processes, and performing quality control inspections.
 - Construction: Handling heavy materials, assisting in building structures, and executing tasks in hazardous environments.
 - Research: Conducting experiments, exploring environments inaccessible to humans, and developing new robotics technologies.
 
-### Components of an Articulated Manipulator
+</h3>
+### Components of an Articulated Manipulator</h3>
 - Twisting Joint: The twisting joint allows continuous rotation around an axis, enabling the manipulator to twist or rotate freely. It provides the manipulator with the ability to orient itself and adjust its position dynamically, enhancing its adaptability to different tasks and environments.
 - Revolute Joint: A revolute joint facilitates rotation around a fixed axis within a limited range or angle. Similar to the hinge of a door, it enables the manipulator to bend, pivot, and articulate at specific points. This joint adds flexibility to the manipulator's movements, allowing it to reach various positions and orientations within its workspace.
 - Revolute Joint: Another revolute joint further enhances the manipulator's articulation and maneuverability. Operating independently, it provides additional degrees of freedom, expanding the manipulator's dexterity and agility. With multiple revolute joints, the manipulator gains increased versatility, making it capable of performing complex tasks requiring precise positioning and manipulation.
 
-### Historical Context
+<h3>
+
+### Historical Context</h3>
  The development of articulated manipulators traces back to the mid-20th century, with significant advancements occurring in robotics research and industrial automation. Early manipulators were primarily designed for repetitive tasks in manufacturing environments. One notable example is the "Unimate," developed by George Devol and Joseph Engelberger in the 1950s, which became the first industrial robot to be employed in production lines.
 
-### Advancements in Robotics Technology
+<h3>
+
+### Advancements in Robotics Technology</h3>
  Articulated manipulators have played a pivotal role in advancing robotics technology. Over the decades, advancements in materials, sensors, and control systems have led to the evolution of these manipulators into highly sophisticated and versatile robotic systems. Today, they are integral to automation across various industries, driving innovation, improving efficiency, and expanding the possibilities of robotics applications.
 
 </div>
@@ -70,8 +81,9 @@ Your abstract content goes here. Replace this text with your actual abstract.
 
 
 <br>
-
-## III. Degrees of Freedom of Articulated Manipulator<a name="degrees-of-freedom"></a>
+<h2>
+ 
+## III. Degrees of Freedom of Articulated Manipulator<a name="degrees-of-freedom"></a></h2>
 In general, degrees of freedom (DOF) refers to the number of independent parameters or variables that define the configuration of a system. It represents the number of ways a mechanical system can move without violating any constraints. In physics and engineering, DOF is crucial for analyzing and understanding the behavior of various systems, including mechanical structures, molecules, and robots.
 
 In robotics, degrees of freedom play a significant role in characterizing the motion capabilities of robotic systems. For a robot, degrees of freedom refers to the number of independent movements or axes along which it can move. Each degree of freedom corresponds to a specific type of motion the robot can perform, such as translation along a linear axis or rotation around a rotational axis.
