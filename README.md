@@ -28,7 +28,6 @@
 ## <strong>I. Abstract of the Project</strong><a name="abstract"></a>
 Your abstract content goes here. Replace this text with your actual abstract.
 
-<hr>
 ## <strong>II. Introduction of the Project</strong><a name="introduction"></a>
 
 <div style="text-align: justify;">
