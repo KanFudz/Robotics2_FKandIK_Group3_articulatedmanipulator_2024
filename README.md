@@ -1,10 +1,10 @@
 <div style="text-align: center;">
 
-## FORWARD AND INVERSE KINEMATICS OF ARTICULATED MANIPULATOR
+## **FORWARD AND INVERSE KINEMATICS OF ARTICULATED MANIPULATOR**
 
 </div>
 
-## Project Course Portfolio
+## **Project Course Portfolio**
 
 [I. Abstract of the Project](#abstract)
 <br>
@@ -25,11 +25,11 @@
 [IX. References](#references)
  <hr>
 
-## I. Abstract of the Project<a name="abstract"></a>
+## **I. Abstract of the Project**<a name="abstract"></a>
 Your abstract content goes here. Replace this text with your actual abstract.
 
 <hr>
-## II. Introduction of the Project<a name="introduction"></a>
+## **II. Introduction of the Project**<a name="introduction"></a>
 
 <div style="text-align: justify;">
 
@@ -57,29 +57,29 @@ Articulated manipulators have played a pivotal role in advancing robotics techno
 </div>
 
  <hr>
-## III. Degrees of Freedom of Articulated Manipulator<a name="degrees-of-freedom"></a>
+## **III. Degrees of Freedom of Articulated Manipulator**<a name="degrees-of-freedom"></a>
 Paki Fill Up
 
  <hr>
-## IV. Kinematic Diagram and D-H Frame Assignment of Articulated Manipulator<a name="kinematic-diagram"></a>
+## **IV. Kinematic Diagram and D-H Frame Assignment of Articulated Manipulator**<a name="kinematic-diagram"></a>
 Paki Fill Up
 
  <hr>
-## V. D-H Parametric Table of Articulated Manipulator<a name="parametric-table"></a>
+## **V. D-H Parametric Table of Articulated Manipulator**<a name="parametric-table"></a>
 Paki Fill Up
 
  <hr>
-## VI. HTM of Articulated Manipulator<a name="htm"></a>
+## **VI. HTM of Articulated Manipulator**<a name="htm"></a>
 Paki Fill  up
 
  <hr>
-## VII. Inverse Kinematics of Articulated Manipulator<a name="inverse-kinematics"></a>
+## **VII. Inverse Kinematics of Articulated Manipulator**<a name="inverse-kinematics"></a>
 Paki Fill Up
 
  <hr>
-## VIII. Forward and Inverse Kinematics GUI calculator of Articulated Manipulator<a name="gui-calculator"></a>
+## **VIII. Forward and Inverse Kinematics GUI calculator of Articulated Manipulator**<a name="gui-calculator"></a>
 Paki Fill Up
 
  <hr>
-## IX. References<a name="references"></a>
+## **IX. References**<a name="references"></a>
 Paki Fill Up
