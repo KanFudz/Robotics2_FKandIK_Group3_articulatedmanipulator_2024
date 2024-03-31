@@ -122,7 +122,7 @@ $$
 **Grubler's Criterion for Mobility/DOF of Spherical Manipulator**
 
 $$
-M = 3n - \sum_{i=1}^{m}(3 - C_i)
+M = 6n - \sum_{i=1}^{m}(6 - C_i)
 $$
  	
 <br>
