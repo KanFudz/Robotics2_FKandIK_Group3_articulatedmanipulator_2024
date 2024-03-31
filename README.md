@@ -93,7 +93,11 @@ In robotics, degrees of freedom play a significant role in characterizing the mo
 
 The concept of degrees of freedom is essential for designing and controlling robots effectively. It helps engineers and researchers determine the kinematic structure of a robot, understand its workspace, and develop algorithms for motion planning and control. The degrees of freedom of a robot influence its agility, versatility, and ability to perform various tasks in different environments.
 
+
+<h3>
+ 
 The following are ideal DOF
+</h3>
 - A point in 2D: 2 DOF; in 3D: 3 DOF
 - A Rigid Body in 3D: 6 DOF
 - Planar Manipulator: 3 DOF
@@ -101,8 +105,11 @@ The following are ideal DOF
 
 <br>
 
+<h3>
+ 
 **Type of Manipulator Based on the number of DOF**
-| **Manipulator Type** | **DOF (f)** |
+</h3>
+|<h3>**Manipulator Type** | **DOF (f)** </h3>|
 | --------------- | --------------- |
 | Under-actuated Manipulator    | Spatial manipulator with less than 6 DOF or a Planar manipulator with less than 3 DOF    |
 | Ideal Manipulator    | Spatial manipulator with exactly 6 DOF or a Planar manipulator with exactly 3 DOF    |
