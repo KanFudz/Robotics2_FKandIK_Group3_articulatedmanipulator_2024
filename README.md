@@ -8,27 +8,27 @@
 
 [I. Abstract of the Project](#abstract)
 <br>
- II. Introduction of the Project
+[II. Introduction of the Project](#introduction)
  <br>
- III. Degrees of Freedom of Articulated Manipulator (Description and Computation)
+[III. Degrees of Freedom of Articulated Manipulator (Description and Computation)](#degrees-of-freedom)
  <br>
- IV. Kinematic Diagram and D-H Frame Assignment of Articulated Manipulator (Description and Computation)
+[IV. Kinematic Diagram and D-H Frame Assignment of Articulated Manipulator (Description and Computation)](#kinematic-diagram)
  <br>
- V. D-H Parametric Table of Articulated Manipulator (Description and Computation)
+[V. D-H Parametric Table of Articulated Manipulator (Description and Computation)](#parametric-table)
  <br>							
- VI. HTM of Articulated Manipulator (Description and Computation)
+[VI. HTM of Articulated Manipulator (Description and Computation)](#htm)
  <br>
- VII. Inverse Kinematics of Articulated Manipulator (Description and Computation)
+[VII. Inverse Kinematics of Articulated Manipulator (Description and Computation)](#inverse-kinematics)
  <br>
- VIII. Forward and Inverse Kinematics GUI calculator of Articulated Manipulator (Description and Computation)
+[VIII. Forward and Inverse Kinematics GUI calculator of Articulated Manipulator (Description and Computation)](#gui-calculator)
  <br>
- IX. Reference
+[IX. References](#references)
  <hr>
 
 ## Abstract of the Project<a name="abstract"></a>
-Your abstract content goes here. Replace this text with your abstract.
+Your abstract content goes here. Replace this text with your actual abstract.
 
-## Introduction of the Project
+## Introduction of the Project<a name="introduction"></a>
 
 <div style="text-align: justify;">
 
@@ -55,23 +55,23 @@ Articulated manipulators have played a pivotal role in advancing robotics techno
 
 </div>
 
-## Degrees of Freedom of Articulated Manipulator
+## Degrees of Freedom of Articulated Manipulator<a name="degrees-of-freedom"></a>
 Paki Fill Up
 
-## Kinematic Diagram and D-H Frame Assignment of Articulated Manipulator
+## Kinematic Diagram and D-H Frame Assignment of Articulated Manipulator<a name="kinematic-diagram"></a>
 Paki Fill Up
 
-## D-H Parametric Table of Articulated Manipulator
+## D-H Parametric Table of Articulated Manipulator<a name="parametric-table"></a>
 Paki Fill Up
 
-## HTM of Articulated Manipulator
+## HTM of Articulated Manipulator<a name="htm"></a>
 Paki Fill  up
 
-## Inverse Kinematics of Articulated Manipulator
+## Inverse Kinematics of Articulated Manipulator<a name="inverse-kinematics"></a>
 Paki Fill Up
 
-## Forward and Inverse Kinematics GUI calculator of Articulated Manipulator
+## Forward and Inverse Kinematics GUI calculator of Articulated Manipulator<a name="gui-calculator"></a>
 Paki Fill Up
 
-## References
+## References<a name="references"></a>
 Paki Fill Up
