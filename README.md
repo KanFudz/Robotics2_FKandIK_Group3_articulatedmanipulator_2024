@@ -25,10 +25,49 @@
  IX. References
  <hr>
 
-<h3>
+<h2>
 I. Abstract of the Project
-</h3>
- 
+</h2>
+    "Paki Fill up"
 
+<h2>
+II. Introduction of the Project
+</h2>
+
+"paki Fill Up
+
+<h2>
+III. Degrees of Freedom of Articulated Manipulator
+</h2>
+Paki Fill Up
+
+<h2>
+IV. Kinematic Diagram and D-H Frame Assignment of Articulated Manipulator
+</h2>
+Paki Fill Up
+
+<h2>
+V. D-H Parametric Table of Articulated Manipulator
+Paki Fill Up
+
+<h2>
+VI. HTM of Articulated Manipulator
+</h2>
+Paki Fill Up
+
+<h2>
+VII. Inverse Kinematics of Articulated Manipulator
+</h2>
+Paki Fill Up
+
+<h2>
+ VIII. Forward and Inverse Kinematics GUI calculator of Articulated Manipulator
+</h2>
+Paki Fill Up
+
+<h2>
+IX. References
+</h2>
+Paki Fill Up
 
 
