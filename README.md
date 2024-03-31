@@ -1,6 +1,4 @@
-<div style="text-align: center;">
-   <h1 style="font-size: xx-large; text-align: center;">FORWARD AND INVERSE KINEMATICS OF ARTICULATED MANIPULATOR</h1>
-</div>
+<h1 style="font-size: xx-large; text-align: center;">FORWARD AND INVERSE KINEMATICS OF ARTICULATED MANIPULATOR</h1>
 
 
 <hr>
