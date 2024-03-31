@@ -42,7 +42,7 @@ Your abstract content goes here. Replace this text with your actual abstract.
 
 <div style="text-align: justify;">
 
-### Introduction to Articulated Manipulator
+### Introduction to Articulated Manipulator or Anthropomorphic Manipulator
  Welcome to the introduction of the Articulated Manipulator! In this section, we'll explore the fundamental components and functionalities of an articulated manipulator with three joint variables: twisting joint, revolute joint, and revolute joint.
 
 ### Purpose and Use
@@ -77,7 +77,24 @@ In robotics, degrees of freedom play a significant role in characterizing the mo
 
 The concept of degrees of freedom is essential for designing and controlling robots effectively. It helps engineers and researchers determine the kinematic structure of a robot, understand its workspace, and develop algorithms for motion planning and control. The degrees of freedom of a robot influence its agility, versatility, and ability to perform various tasks in different environments.
 
-| Joint Type | DOF (f) |Constraints c between two planar rigid bodies | Constraints c between two spatial rigid bodies |
+The following are ideal DOF
+- A point in 2D: 2 DOF; in 3D: 3 DOF
+- A Rigid Body in 3D: 6 DOF
+- Planar Manipulator: 3 DOF
+- Spatial Manipulator: 6 DOF
+
+Type of Manipulator Based on the number of DOF
+*Under-actuated Manipulator - either a spatial manipulator with less than 6 DOF or a planar manipulator with less than 3 DOF.
+*Ideal Manipulator - either 
+| Manipulator Type | DOF (f) |
+| --------------- | --------------- |
+| Under-actuated Manipulator    | Spatial manipulator with less than 6 DOF or a Planar manipulator with less than 3 DOF    |
+| Ideal Manipulator    | Spatial manipulator with exactly 6 DOF or a Planar manipulator with exactly 3 DOF    |
+| Redundant Manipulator    | Spatial manipulator with more than 6 DOF or a Planar manipulator with more than 3 DOF    |
+
+
+
+| Joint Classification | DOF (f) |Constraints c between two planar rigid bodies | Constraints c between two spatial rigid bodies |
 | --------------- | --------------- | --------------- | --------------- |
 | Revolute (R)    | 1    | 2    | 5 |
 | Prismatic (P)	    | 1    | 2    | 5 |
