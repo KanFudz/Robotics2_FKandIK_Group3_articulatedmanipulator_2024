@@ -1,10 +1,10 @@
 <div style="text-align: center;">
 
-## **FORWARD AND INVERSE KINEMATICS OF ARTICULATED MANIPULATOR**
+## <strong>FORWARD AND INVERSE KINEMATICS OF ARTICULATED MANIPULATOR</strong>
 
 </div>
 
-## **Project Course Portfolio**
+## <strong>Project Course Portfolio</strong>
 
 [I. Abstract of the Project](#abstract)
 <br>
@@ -25,11 +25,11 @@
 [IX. References](#references)
  <hr>
 
-## **I. Abstract of the Project**<a name="abstract"></a>
+## <strong>I. Abstract of the Project</strong><a name="abstract"></a>
 Your abstract content goes here. Replace this text with your actual abstract.
 
 <hr>
-## **II. Introduction of the Project**<a name="introduction"></a>
+## <strong>II. Introduction of the Project</strong><a name="introduction"></a>
 
 <div style="text-align: justify;">
 
@@ -57,29 +57,29 @@ Articulated manipulators have played a pivotal role in advancing robotics techno
 </div>
 
  <hr>
-## **III. Degrees of Freedom of Articulated Manipulator**<a name="degrees-of-freedom"></a>
+## <strong>III. Degrees of Freedom of Articulated Manipulator</strong><a name="degrees-of-freedom"></a>
 Paki Fill Up
 
  <hr>
-## **IV. Kinematic Diagram and D-H Frame Assignment of Articulated Manipulator**<a name="kinematic-diagram"></a>
+## <strong>IV. Kinematic Diagram and D-H Frame Assignment of Articulated Manipulator</strong><a name="kinematic-diagram"></a>
 Paki Fill Up
 
  <hr>
-## **V. D-H Parametric Table of Articulated Manipulator**<a name="parametric-table"></a>
+## <strong>V. D-H Parametric Table of Articulated Manipulator</strong><a name="parametric-table"></a>
 Paki Fill Up
 
  <hr>
-## **VI. HTM of Articulated Manipulator**<a name="htm"></a>
+## <strong>VI. HTM of Articulated Manipulator</strong><a name="htm"></a>
 Paki Fill  up
 
  <hr>
-## **VII. Inverse Kinematics of Articulated Manipulator**<a name="inverse-kinematics"></a>
+## <strong>VII. Inverse Kinematics of Articulated Manipulator</strong><a name="inverse-kinematics"></a>
 Paki Fill Up
 
  <hr>
-## **VIII. Forward and Inverse Kinematics GUI calculator of Articulated Manipulator**<a name="gui-calculator"></a>
+## <strong>VIII. Forward and Inverse Kinematics GUI calculator of Articulated Manipulator</strong><a name="gui-calculator"></a>
 Paki Fill Up
 
  <hr>
-## **IX. References**<a name="references"></a>
+## <strong>IX. References</strong><a name="references"></a>
 Paki Fill Up
