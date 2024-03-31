@@ -134,7 +134,39 @@ ANGELO PALAGAY DITO NUNG COMPUTATION
 <br>
 
 ## IV. Kinematic Diagram and D-H Frame Assignment of Articulated Manipulator<a name="kinematic-diagram"></a>
-Paki Fill Up
+## IV. Kinematic Diagram and D-H Frame Assignment of Articulated Manipulator
+
+In robotics, a kinematic diagram is a schematic representation used to visualize the structure and motion of a robotic manipulator. It illustrates the arrangement of joints and links in the manipulator, as well as the direction of motion allowed at each joint.
+
+### Purpose of Kinematic Diagrams
+
+Kinematic diagrams serve several purposes in robotics:
+
+1. **Visualization**: They provide a clear visual representation of the robotic system, aiding in understanding its structure and movement capabilities.
+
+2. **Design**: Engineers use kinematic diagrams during the design phase to plan the layout of joints and links, ensuring that the manipulator can achieve the desired range of motion.
+
+3. **Analysis**: Kinematic diagrams are used in kinematic analysis to study the relationship between joint motions and end-effector positions.
+
+### Components of a Kinematic Diagram
+
+A typical kinematic diagram includes the following components:
+
+1. **Links**: Represent the rigid bodies or segments of the manipulator connected by joints. They are usually depicted as line segments.
+
+2. **Joints**: Represent the points of connection between adjacent links where motion occurs. Different types of joints allow different degrees of freedom and types of motion.
+
+3. **Axes**: Indicate the axes of rotation or translation associated with each joint.
+
+### D-H Frame Assignment
+
+The Denavit-Hartenberg (D-H) frame assignment is commonly used in robotics to define the coordinate frames associated with each joint. This assignment simplifies the kinematic analysis of robotic manipulators by providing a systematic method for describing their geometry and motion.
+
+### Example Kinematic Diagram and D-H Frame Assignment
+
+Below is an example kinematic diagram and D-H frame assignment of a simple robotic manipulator with revolute joints:
+
+
 
 
 
