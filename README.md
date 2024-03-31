@@ -3,7 +3,8 @@
    ## FORWARD AND INVERSE KINEMATICS OF ARTICULATED MANIPULATOR
 </div>
 
-
+<br>
+<br>
 ## Project Course Portfolio
 
 [I. Abstract of the Project](#abstract)
