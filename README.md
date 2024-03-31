@@ -1,4 +1,4 @@
-## FORWARD AND INVERSE KINEMATICS OF ARTICULATED MANIPULATOR
+##           FORWARD AND INVERSE KINEMATICS OF ARTICULATED MANIPULATOR           ##
 
 ---
 
@@ -8,7 +8,7 @@
 [II. Introduction of the Project](#introduction) <br>
 [III. Degrees of Freedom of Articulated Manipulator](#degrees-of-freedom) <br>
 [IV. Kinematic Diagram and D-H Frame Assignment of Articulated Manipulator](#kinematic-diagram) <br>
-[V. D-H Parametric Table of Articulated Manipulator](#parametric-table) <br>
+[V. D-H Parametric Table of Articulated Manipulator](#parametric-table) <br>							
 [VI. HTM of Articulated Manipulator](#htm) <br>
 [VII. Inverse Kinematics of Articulated Manipulator](#inverse-kinematics) <br>
 [VIII. Forward and Inverse Kinematics GUI calculator of Articulated Manipulator](#gui-calculator) <br>
@@ -72,7 +72,7 @@ Paki Fill Up
 
 ## VI. HTM of Articulated Manipulator <a name="htm"></a>
 
-Paki Fill Up
+Paki Fill  up
 
 ---
 
@@ -91,4 +91,3 @@ Paki Fill Up
 ## IX. References <a name="references"></a>
 
 Paki Fill Up
-
