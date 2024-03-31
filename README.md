@@ -7,6 +7,7 @@
     Project Course Portfolio
 </h2>
  I. Abstract of the Project
+ <br>
  II. Introduction of the Project
  III. Degrees of Freedom of Articulated Manipulator (Description and Computation)
  IV. Kinematic Diagram and D-H Frame Assignment of Articulated Manipulator (Description and Computation)
