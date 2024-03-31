@@ -4,7 +4,6 @@
     FORWARD AND INVERSE KINEMATICS OF ARTICULATED MANIPULATOR
 </h1>
 </p>
-**
 <h2>
     Project Course Portfolio
 </h2>
@@ -28,7 +27,7 @@
  <hr>
 
 <h3>
-    I. Abstract of the Project
+    [I. Abstract of the Project](http:)
 </h3>
  
 
