@@ -299,26 +299,37 @@ Each row corresponds to a joint in the manipulator, and the parameters define th
 
 <br>
 
-## VI. HTM of Articulated Manipulator<a name="htm"></a>
-Paki Fill  up
+<h2>
+ 
+## VI. HTM of Articulated Manipulator<a name="htm"></a></h2>
+In robotics, the Homogeneous Transformation Matrix (HTM) is a mathematical representation used to describe the transformation between coordinate frames in a robotic system. It allows us to represent the position and orientation of one coordinate frame relative to another.
+
+<h3>
+ 
+### Concept</h3>
+The HTM is a 4x4 matrix that combines rotation and translation transformations. It enables us to express both the position (translation) and orientation (rotation) of a coordinate frame relative to another coordinate frame.
 
 
 
 <br>
 
-## VII. Inverse Kinematics of Articulated Manipulator<a name="inverse-kinematics"></a>
+<h2>
+ 
+## VII. Inverse Kinematics of Articulated Manipulator<a name="inverse-kinematics"></a></h2>
 Paki Fill Up
 
 
 
 <br>
+<h2>
 
-## VIII. Forward and Inverse Kinematics GUI calculator of Articulated Manipulator<a name="gui-calculator"></a>
+## VIII. Forward and Inverse Kinematics GUI calculator of Articulated Manipulator<a name="gui-calculator"></a></h2>
 Paki Fill Up
 
 
 
 <br>
+<h2>
 
-## IX. References<a name="references"></a>
+## IX. References<a name="references"></a></h2>
 Paki Fill Up
