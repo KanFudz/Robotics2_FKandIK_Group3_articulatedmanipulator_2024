@@ -6,7 +6,7 @@
 
 ## Project Course Portfolio
 
-[I. Abstract of the Project](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/blob/main/README.md#i-abstract-of-the-project)
+[I. Abstract of the Project](#abstract)
 <br>
  II. Introduction of the Project
  <br>
@@ -25,10 +25,10 @@
  IX. Reference
  <hr>
 
-## I. Abstract of the Project
-"Paki Fill up"
+## Abstract of the Project<a name="abstract"></a>
+Your abstract content goes here. Replace this text with your abstract.
 
-## II. Introduction of the Project
+## Introduction of the Project
 
 <div style="text-align: justify;">
 
@@ -55,23 +55,23 @@ Articulated manipulators have played a pivotal role in advancing robotics techno
 
 </div>
 
-## III. Degrees of Freedom of Articulated Manipulator
+## Degrees of Freedom of Articulated Manipulator
 Paki Fill Up
 
-## IV. Kinematic Diagram and D-H Frame Assignment of Articulated Manipulator
+## Kinematic Diagram and D-H Frame Assignment of Articulated Manipulator
 Paki Fill Up
 
-## V. D-H Parametric Table of Articulated Manipulator
+## D-H Parametric Table of Articulated Manipulator
 Paki Fill Up
 
-## VI. HTM of Articulated Manipulator
+## HTM of Articulated Manipulator
 Paki Fill  up
 
-## VII. Inverse Kinematics of Articulated Manipulator
+## Inverse Kinematics of Articulated Manipulator
 Paki Fill Up
 
-## VIII. Forward and Inverse Kinematics GUI calculator of Articulated Manipulator
+## Forward and Inverse Kinematics GUI calculator of Articulated Manipulator
 Paki Fill Up
 
-## IX. References
+## References
 Paki Fill Up
