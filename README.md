@@ -6,7 +6,7 @@
 <h2>
     Project Course Portfolio
 </h2>
-[I. Abstract of the Project]([https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/blob/main/README.md#i-abstract-of-the-project](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/blob/main/README.md#i-abstract-of-the-project)).
+([I. Abstract of the Project](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/blob/main/README.md#i-abstract-of-the-project)).
 <br>
  II. Introduction of the Project
  <br>
