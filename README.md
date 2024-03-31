@@ -109,7 +109,7 @@ The following are ideal DOF
  
 **Type of Manipulator Based on the number of DOF**
 </h3>
-|<h3>**Manipulator Type** | **DOF (f)** </h3>|
+|**Manipulator Type** | **DOF (f)** |
 | --------------- | --------------- |
 | Under-actuated Manipulator    | Spatial manipulator with less than 6 DOF or a Planar manipulator with less than 3 DOF    |
 | Ideal Manipulator    | Spatial manipulator with exactly 6 DOF or a Planar manipulator with exactly 3 DOF    |
@@ -130,19 +130,27 @@ The following are ideal DOF
 
 <br>
 
-**DOF vs Mobility**
+
+<h3>
+
+**DOF vs Mobility** 
+</h3>
 - If the DOF of a manipulator is more than the ideal or based on the calculation indicates a Redundant Manipulator, it will be called **MOBILITY**.
 
 <br>
 
+<h3>
 **Grubler's Criterion for Mobility/DOF of Planar Manipulator**
+</h3>
 
 $$
 M = 3n - \sum_{i=1}^{m}(3 - C_i)
 $$
 
 
+<h3>
 **Grubler's Criterion for Mobility/DOF of Spherical Manipulator**
+</h3>
 
 $$
 M = 6n - \sum_{i=1}^{m}(6 - C_i)
@@ -156,11 +164,19 @@ ANGELO PALAGAY DITO NUNG COMPUTATION
 
 <br>
 
+<h2>
+
 ## IV. Kinematic Diagram and D-H Frame Assignment of Articulated Manipulator<a name="kinematic-diagram"></a>
+</h2>
 
 In robotics, a kinematic diagram is a schematic representation used to visualize the structure and motion of a robotic manipulator. It illustrates the arrangement of joints and links in the manipulator, as well as the direction of motion allowed at each joint.
 
+
+
+<h3>
+
 ### Purpose of Kinematic Diagrams
+</h3>
 
 Kinematic diagrams serve several purposes in robotics:
 
@@ -170,7 +186,10 @@ Kinematic diagrams serve several purposes in robotics:
 
 3. **Analysis**: Kinematic diagrams are used in kinematic analysis to study the relationship between joint motions and end-effector positions.
 
+
+<h3>
 ### Components of a Kinematic Diagram
+</h3>
 
 A typical kinematic diagram includes the following components:
 
@@ -180,21 +199,38 @@ A typical kinematic diagram includes the following components:
 
 3. **Axes**: Indicate the axes of rotation or translation associated with each joint.
 
+
+<h3>
 ### D-H Frame Assignment
+</h3>
 
 The Denavit-Hartenberg (D-H) frame assignment is commonly used in robotics to define the coordinate frames associated with each joint. This assignment simplifies the kinematic analysis of robotic manipulators by providing a systematic method for describing their geometry and motion.
 
+
+<h3>
 ### D-H Notation
-Jacques Denavit and Richard Hartenberg introduced this convention in 1955 to standardize the coordinate frames for spatial linkages. D-H Notation is used to solve the forward kinematics of a mechanical manipulator.
+</h3>
+
+**Jacques Denavit** and **Richard Hartenberg** introduced this convention in 1955 to standardize the coordinate frames for spatial linkages. D-H Notation is used to solve the forward kinematics of a mechanical manipulator.
+
+
+<h3>
 
 ### Frames
+</h3>
 In a mechanical manipulator a coordinate system that the manipulator uses to know where it is and where to go. There are generally 3 types of frames used on a mechanical manipulator:
-- Base (World) frame
-- User frame
-- Tool frame
+
+- **Base (World) frame**
+- **User frame**
+- **Tool frame**
+
+
+<h3>
 
 ### D-H Frame Rules
+</h3>
 The following are used to assign frames in a kinematic diagram for applying D-H Notation.<br>
+
 **Rule 1:** The z-axis must be the axis of rotation for a revolute / twisting joint or the direction of translation for a prismatic joint.<br>
 **Rule 2:** The x-axis must be perpendicular both to its z-axis and the z-axis of the frame before it.<br>
 **Rule 3:** Each x-axis must intersect the z-axis of the frame before it.<br>
@@ -207,7 +243,10 @@ The following are used to assign frames in a kinematic diagram for applying D-H 
 
 
 
+<h3>
+ 
 ### Kinematic Diagram and D-H Frame Assignment
+</h3>
 
 Below is the kinematic diagram and D-H frame assignment of the articulated manipulator with a twisting joint and 2 revolute joints:
 
