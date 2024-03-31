@@ -325,8 +325,6 @@ Paki Fill Up
 
 ## VIII. Forward and Inverse Kinematics GUI calculator of Articulated Manipulator<a name="gui-calculator"></a></h2>
 
-## VIII. Articulated Manipulator Calculator
-
 ### Description
 The Articulated Manipulator Calculator is a tool designed to facilitate kinematics calculations for articulated manipulators. This calculator provides a user-friendly interface for performing both forward and inverse kinematics analyses, enabling users to determine the position and orientation of the end-effector given the joint parameters or vice versa.
 
