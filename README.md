@@ -85,8 +85,8 @@ The following are ideal DOF
 
 <br>
 
-Type of Manipulator Based on the number of DOF
-| Manipulator Type | DOF (f) |
+**Type of Manipulator Based on the number of DOF**
+| **Manipulator Type** | **DOF (f)** |
 | --------------- | --------------- |
 | Under-actuated Manipulator    | Spatial manipulator with less than 6 DOF or a Planar manipulator with less than 3 DOF    |
 | Ideal Manipulator    | Spatial manipulator with exactly 6 DOF or a Planar manipulator with exactly 3 DOF    |
@@ -96,7 +96,7 @@ Type of Manipulator Based on the number of DOF
 <br>
 
 
-| Joint Classification | DOF (f) |Constraints c between two planar rigid bodies | Constraints c between two spatial rigid bodies |
+| **Joint Classification** | **DOF (f)** | **Constraints c between two planar rigid bodies** | **Constraints c between two spatial rigid bodies** |
 | --------------- | --------------- | --------------- | --------------- |
 | Revolute (R)    | 1    | 2    | 5 |
 | Prismatic (P)	    | 1    | 2    | 5 |
@@ -107,7 +107,7 @@ Type of Manipulator Based on the number of DOF
 
 <br>
 
-DOF vs Mobility
+**DOF vs Mobility**
 - If the DOF of a manipulator is more than the ideal or based on the calculation indicates a Redundant Manipulator, it will be called **MOBILITY**.
 
 
