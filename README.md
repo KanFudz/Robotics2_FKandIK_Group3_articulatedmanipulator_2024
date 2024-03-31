@@ -233,7 +233,7 @@ The following are used to assign frames in a kinematic diagram for applying D-H 
  - Rotate the axis until it hits the other.
  - Or translate the axis until it hits the other.
 
-**Rule 4:** All frames must follow the right-hand rule.
+**Rule 4:** All frames must follow the right-hand rule. <br>
 ![righthandrule](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157684612/239bcd4a-81ac-41cb-b37c-17f9952bfb8d)
 
 
