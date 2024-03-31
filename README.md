@@ -347,9 +347,6 @@ The Articulated Manipulator Calculator is a tool designed to facilitate kinemati
   
 - **tkinter**: Used for creating the graphical user interface.
 
-### Note
-Ensure that all input parameters are provided accurately to obtain correct kinematics solutions. Additionally, familiarize yourself with the limitations and assumptions of kinematics models used in the calculations.
-
 ### Color Palette
 ![15773625-2bbe-4b32-b30f-c6a049a4ec2c](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157684612/39504e36-4872-4113-89a6-5e02bab6458a)
 #012228<br>
@@ -375,6 +372,10 @@ Ensure that all input parameters are provided accurately to obtain correct kinem
 #d04346<br>
 
 <br>
+
+### Note
+Ensure that all input parameters are provided accurately to obtain correct kinematics solutions. Additionally, familiarize yourself with the limitations and assumptions of kinematics models used in the calculations.
+
 <h2>
 
 ## IX. References<a name="references"></a></h2>
