@@ -112,18 +112,20 @@ The following are ideal DOF
 
 <br>
 
-**Grubler's Criterion for Mobility/DOF**
-| **Planar Manipulator** | **Spatial Manipulator** |
-| --------------- | --------------- |
-| $$
+**Grubler's Criterion for Mobility/DOF of Planar Manipulator**
+$$
 M = 3n - \sum_{i=1}^{m}(3 - C_i)
 $$
-| $$
-M = 3n - \sum_{i=1}^{m}(3 - C_i)
-$$
-    |
- 	
 
+<br>
+
+**Grubler's Criterion for Mobility/DOF of Spherical Manipulator**
+
+$$
+M = 3n - \sum_{i=1}^{m}(3 - C_i)
+$$
+ 	
+<br>
 
 
 <br>
