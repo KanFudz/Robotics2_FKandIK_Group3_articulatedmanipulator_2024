@@ -23,7 +23,7 @@
  VIII. Forward and Inverse Kinematics GUI calculator of Articulated Manipulator (Description and Computation)
  <br>
  IX. References
- 
+ <hr>
 
 
 
