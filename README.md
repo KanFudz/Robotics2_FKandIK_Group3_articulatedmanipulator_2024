@@ -35,19 +35,19 @@ II. Introduction of the Project
 </h2>
 
 
-<h3>**Introduction to Articulated Manipulator**</h3>
-Welcome to the introduction of the Articulated Manipulator! In this document, we'll explore the fundamental components and functionalities of an articulated manipulator with three joint variables: twisting joint, revolute joint, and revolute joint.
+<h3>Introduction to Articulated Manipulator</h3>
+Welcome to the introduction of the Articulated Manipulator! In this section, we'll explore the fundamental components and functionalities of an articulated manipulator with three joint variables: twisting joint, revolute joint, and revolute joint.
 <br>
 <br>
-<h3>**Purpose and Use**</h3>
+<h3>Purpose and Use</h3>
 Articulated manipulators are versatile robotic systems designed for precise and flexible manipulation tasks in various industries. Their primary purpose is to handle objects, perform assembly tasks, and execute complex maneuvers with accuracy and efficiency. These manipulators find applications in:
 <br>
 <br>
-**Manufacturing:** Assembling products on assembly lines, handling materials in production processes, and performing quality control inspections.
+Manufacturing: Assembling products on assembly lines, handling materials in production processes, and performing quality control inspections.
 <br>
-**Construction:** Handling heavy materials, assisting in building structures, and executing tasks in hazardous environments.
+Construction: Handling heavy materials, assisting in building structures, and executing tasks in hazardous environments.
 <br>
-**Research:** Conducting experiments, exploring environments inaccessible to humans, and developing new robotics technologies.
+Research: Conducting experiments, exploring environments inaccessible to humans, and developing new robotics technologies.
 <br>
 <br>
 <h3>Components of an Articulated Manipulator</h3>
