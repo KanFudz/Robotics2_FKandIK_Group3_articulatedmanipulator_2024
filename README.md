@@ -10,17 +10,17 @@
 <br>
 [II. Introduction of the Project](#introduction)
  <br>
-[III. Degrees of Freedom of Articulated Manipulator (Description and Computation)](#degrees-of-freedom)
+[III. Degrees of Freedom of Articulated Manipulator](#degrees-of-freedom)
  <br>
-[IV. Kinematic Diagram and D-H Frame Assignment of Articulated Manipulator (Description and Computation)](#kinematic-diagram)
+[IV. Kinematic Diagram and D-H Frame Assignment of Articulated Manipulator](#kinematic-diagram)
  <br>
-[V. D-H Parametric Table of Articulated Manipulator (Description and Computation)](#parametric-table)
+[V. D-H Parametric Table of Articulated Manipulator](#parametric-table)
  <br>							
-[VI. HTM of Articulated Manipulator (Description and Computation)](#htm)
+[VI. HTM of Articulated Manipulator](#htm)
  <br>
-[VII. Inverse Kinematics of Articulated Manipulator (Description and Computation)](#inverse-kinematics)
+[VII. Inverse Kinematics of Articulated Manipulator](#inverse-kinematics)
  <br>
-[VIII. Forward and Inverse Kinematics GUI calculator of Articulated Manipulator (Description and Computation)](#gui-calculator)
+[VIII. Forward and Inverse Kinematics GUI calculator of Articulated Manipulator](#gui-calculator)
  <br>
 [IX. References](#references)
  <hr>
