@@ -172,14 +172,14 @@ In a mechanical manipulator a coordinate system that the manipulator uses to kno
 
 ### D-H Frame Rules
 The following are used to assign frames in a kinematic diagram for applying D-H Notation.<br>
-Rule 1: The z-axis must be the axis of rotation for a revolute / twisting joint or the direction of translation for a prismatic joint.<br>
-Rule 2: The x-axis must be perpendicular both to its z-axis and the z-axis of the frame before it.<br>
-Rule 3: Each x-axis must intersect the z-axis of the frame before it.<br>
-Rules for complying with Rule 3:
+**Rule 1:** The z-axis must be the axis of rotation for a revolute / twisting joint or the direction of translation for a prismatic joint.<br>
+**Rule 2:** The x-axis must be perpendicular both to its z-axis and the z-axis of the frame before it.<br>
+**Rule 3:** Each x-axis must intersect the z-axis of the frame before it.<br>
+**Rules for complying with Rule 3:**
  - Rotate the axis until it hits the other.
  - Or translate the axis until it hits the other.
 
-Rule 4: All frames must follow the right-hand rule.
+**Rule 4:** All frames must follow the right-hand rule.
 ![right hand rule](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157684612/b10393b5-6965-4cda-9c2b-212432bfe3c8)
 
 
