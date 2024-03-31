@@ -365,17 +365,18 @@ Ensure that all input parameters are provided accurately to obtain correct kinem
 #3e8e6f<br>
 #539d85<br>
 #65ae91<br>
+<br>
 
 ![f2044472-a2e4-49a1-8387-284820694157](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157684612/235eff19-ccdd-4a09-bc2f-9915cb2073a8)
-#220203
-#380506
-#540f0d
-#6b0500
-#87080a
-#980b06
-#ae120a
-#c02a2a
-#d04346
+#220203<br>
+#380506<br>
+#540f0d<br>
+#6b0500<br>
+#87080a<br>
+#980b06<br>
+#ae120a<br>
+#c02a2a<br>
+#d04346<br>
 
 
 
