@@ -129,7 +129,6 @@ The following are ideal DOF:
 - If the DOF of a manipulator is more than the ideal or based on the calculation indicates a Redundant Manipulator, it will be called **MOBILITY**.
 
 <br>
-
 <h3>
  
 **Grubler's Criterion for Mobility/DOF of Planar Manipulator**
