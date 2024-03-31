@@ -180,6 +180,7 @@ Kinematic diagrams serve several purposes in robotics:
 
 
 <h3>
+ 
 ### Components of a Kinematic Diagram
 </h3>
 
@@ -193,6 +194,7 @@ A typical kinematic diagram includes the following components:
 
 
 <h3>
+ 
 ### D-H Frame Assignment
 </h3>
 
