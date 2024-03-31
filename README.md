@@ -1,7 +1,7 @@
 <p align="center">
-    <h1>
+<h1>
     FORWARD AND INVERSE KINEMATICS OF ARTICULATED MANIPULATOR
-    </h1>
+</h1>
 </p>
 <hr>
 testing
