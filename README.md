@@ -55,9 +55,9 @@ Your abstract content goes here. Replace this text with your actual abstract.
 ### Purpose and Use</h3>
  Articulated manipulators are versatile robotic systems designed for precise and flexible manipulation tasks in various industries. Their primary purpose is to handle objects, perform assembly tasks, and execute complex maneuvers with accuracy and efficiency. These manipulators find applications in:
 
-- Manufacturing: Assembling products on assembly lines, handling materials in production processes, and performing quality control inspections.
-- Construction: Handling heavy materials, assisting in building structures, and executing tasks in hazardous environments.
-- Research: Conducting experiments, exploring environments inaccessible to humans, and developing new robotics technologies.
+- **Manufacturing:** Assembling products on assembly lines, handling materials in production processes, and performing quality control inspections.
+- **Construction:** Handling heavy materials, assisting in building structures, and executing tasks in hazardous environments.
+- **Research:** Conducting experiments, exploring environments inaccessible to humans, and developing new robotics technologies.
 
 </h3>
 
