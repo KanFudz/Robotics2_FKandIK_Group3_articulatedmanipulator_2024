@@ -161,7 +161,28 @@ A typical kinematic diagram includes the following components:
 
 The Denavit-Hartenberg (D-H) frame assignment is commonly used in robotics to define the coordinate frames associated with each joint. This assignment simplifies the kinematic analysis of robotic manipulators by providing a systematic method for describing their geometry and motion.
 
-### Example Kinematic Diagram and D-H Frame Assignment
+### D-H Notation
+Jacques Denavit and Richard Hartenberg introduced this convention in 1955 to standardize the coordinate frames for spatial linkages. D-H Notation is used to solve the forward kinematics of a mechanical manipulator.
+
+### Frames
+In a mechanical manipulator a coordinate system that the manipulator uses to know where it is and where to go. There are generally 3 types of frames used on a mechanical manipulator:
+- Base (World) frame
+- User frame
+- Tool frame
+
+### D-H Frame Rules
+The following are used to assign frames in a kinematic diagram for applying D-H Notation.
+Rule 1: The z-axis must be the axis of rotation for a revolute / twisting joint or the direction of translation for a prismatic joint.
+Rule 2: The x-axis must be perpendicular both to its z-axis and the z-axis of the frame before it.
+Rule 3: Each x-axis must intersect the z-axis of the frame before it.
+Rules for complying with Rule 3:
+ - Rotate the axis until it hits the other.
+ - Or translate the axis until it hits the other.
+Rule 4: All frames must follow the right-hand rule.
+![right hand rule](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157684612/8ec7d673-452e-4d30-ab42-0b879ae9c8d7)
+
+
+### Kinematic Diagram and D-H Frame Assignment
 
 Below is the kinematic diagram and D-H frame assignment of the articulated manipulator with a twisting joint and 2 revolute joints:
 
