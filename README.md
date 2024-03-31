@@ -84,14 +84,14 @@ The following are ideal DOF
 - Spatial Manipulator: 6 DOF
 
 Type of Manipulator Based on the number of DOF
-*Under-actuated Manipulator - either a spatial manipulator with less than 6 DOF or a planar manipulator with less than 3 DOF.
-*Ideal Manipulator - either 
 | Manipulator Type | DOF (f) |
 | --------------- | --------------- |
 | Under-actuated Manipulator    | Spatial manipulator with less than 6 DOF or a Planar manipulator with less than 3 DOF    |
 | Ideal Manipulator    | Spatial manipulator with exactly 6 DOF or a Planar manipulator with exactly 3 DOF    |
 | Redundant Manipulator    | Spatial manipulator with more than 6 DOF or a Planar manipulator with more than 3 DOF    |
 
+<br>
+<br>
 
 
 | Joint Classification | DOF (f) |Constraints c between two planar rigid bodies | Constraints c between two spatial rigid bodies |
