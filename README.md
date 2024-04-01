@@ -153,6 +153,7 @@ $$
 ANGELO PALAGAY DITO NUNG COMPUTATION
 
 
+https://youtu.be/g7lCQ4IBkvA?si=sfeKAJghAUmwzX5e
 
 <br>
 
