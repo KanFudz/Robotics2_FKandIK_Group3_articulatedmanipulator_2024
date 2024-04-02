@@ -254,6 +254,7 @@ The following are used to assign frames in a kinematic diagram for applying D-H 
 
 ### D-H Notation
 <div align="justify">
+ 
 **Jacques Denavit** and **Richard Hartenberg** introduced this convention in 1955 to standardize the coordinate frames for spatial linkages. D-H Notation is used to solve the forward kinematics of a mechanical manipulator.
 </div>
 
