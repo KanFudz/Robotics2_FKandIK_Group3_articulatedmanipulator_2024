@@ -29,9 +29,19 @@
 
 
 ## I. Abstract of the Project<a name="abstract"></a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Your abstract content goes here. Replace this text with your actual abstract.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This project explores the fundamental principles governing the motion control of articulated manipulators, focusing specifically on robotic arms equipped with rotary joints. Combining theoretical insights with practical implementations for a cohesive understanding of this dynamic field.
+<br>
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;At the core of our exploration lies the concept of degrees of freedom (DOF), which dictates the manipulator's ability to perform independent movements. Building upon this foundation, we delve into the Denavit-Hartenberg (D-H) parameters, elucidating their role in constructing a D-H table. This table simplifies the derivation of the Homogeneous Transformation Matrix (HTM), a powerful tool for describing the manipulator's end-effector position and orientation relative to a base frame.
+<br>
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Navigating through the complexities of manipulator kinematics, we tackle the challenging problem of inverse kinematics. By solving inverse kinematic equations, we establish a link between the manipulator's joint angles and the desired end-effector position and orientation.
+<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To enhance understanding and user interaction, we introduce a Python-based Graphical User Interface (GUI). This intuitive interface allows users to visualize the manipulator and solve both forward and inverse kinematics problems. The forward kinematics section computes the end-effector position and orientation for given joint angles, while the inverse kinematics section helps users determine the necessary joint angles to achieve a desired end-effector position and orientation.
+<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;By seamlessly integrating theory with hands-on application and facilitating user engagement, this project offers a cohesive exploration of manipulator kinematics, empowering users to understand and utilize these concepts effectively in practical robotics applications.
 <br>
 
 ## II. Introduction of the Project<a name="introduction">
@@ -452,7 +462,7 @@ https://youtube.com/watch?v=PBD06Toaymw&si=DnEPvbjfd-WdqmPv
 
 ## X. Group Members<a name="Group-Members"></a>
 
-1. Comia
+1. Comia, Alexandria B. (21-07197)
 2. Hernandez
 3. Malabanan
 4. Malata, John Rei R. (21-08864)
