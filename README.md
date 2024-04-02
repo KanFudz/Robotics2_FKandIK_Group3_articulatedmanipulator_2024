@@ -264,8 +264,9 @@ The following are used to assign frames in a kinematic diagram for applying D-H 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Below is the kinematic diagram and D-H frame assignment of the articulated manipulator with a twisting joint and 2 revolute joints. Wherein Links, Joint Variables, Z, X, Y axis are identified.
 </div>
 
+<br>
 <div align="center">
- 
+
 ![Screenshot 2024-04-02 101920](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157782959/202b4767-da41-4d16-84e7-3a760072f749)
 </div>
 
@@ -335,7 +336,7 @@ Each row corresponds to a joint in the manipulator, and the parameters define th
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The HTM is a 4x4 matrix that combines rotation and translation transformations. It enables us to express both the position (translation) and orientation (rotation) of a coordinate frame relative to another coordinate frame.
 
 <div align="center">
- 
+The images below are the computation of the Homogeneous Transformation Matrix of Articulated Manipulator
 ![HTM1](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157782959/c078fed1-b4a9-445a-b752-b06cd6acdd54)
 ![HTM2](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157782959/89d03ab2-9463-4ad7-832d-454189ce2813)
 
@@ -353,9 +354,10 @@ Click on the image above to watch the video.
  
 ## VII. Inverse Kinematics of Articulated Manipulator<a name="inverse-kinematics"></a>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inverse Kinematics is same with the Forward Kinematics, they are used to make mechanical manipulator move. The difference between them is that in Forward Kinematics, the given inputs are Joint Variables and by using the Homogeneous Transformation Matrix we will be able to get the output which is Position Vector. While in Inverse Kinematics, the given is the Position Vector and the output is Joint Variables
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Both Inverse Kinematics and Forward Kinematics are used to make mechanical a manipulator move. The difference between them is that in Forward Kinematics, the given inputs are Joint Variables and by using the Homogeneous Transformation Matrix we will be able to get the output which is Position Vector. In Inverse Kinematics, the given is the Position Vector and the output is Joint Variables.
 
-**The image below are the computation of each equation for Articulated Manipulator in Top View**
+**The image below is the computation of each equation for Articulated Manipulator in Top View**
+<br>
 <div align="center">
  
 ![INV1](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157782959/2072741b-b4e9-48a5-b0cb-d4e277255611)
