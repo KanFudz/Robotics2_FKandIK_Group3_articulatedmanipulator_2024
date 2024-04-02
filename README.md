@@ -35,6 +35,7 @@
 <div align="center">
  
 ![432889743_458344376635490_3344111488579056072_n](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157684612/4990b5fd-4de6-4f8b-9e64-4fab57a77057)
+
 </div>
 
 
@@ -78,13 +79,17 @@
 ## III. Degrees of Freedom of Articulated Manipulator<a name="degrees-of-freedom"></a>
 <div align="justify">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In general, degrees of freedom (DOF) refers to the number of independent parameters or variables that define the configuration of a system. It represents the number of ways a mechanical system can move without violating any constraints. In physics and engineering, DOF is crucial for analyzing and understanding the behavior of various systems, including mechanical structures, molecules, and robots.
- 
+</div>
+
 <br>
  
+<div align="justify">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In robotics, degrees of freedom play a significant role in characterizing the motion capabilities of robotic systems. For a robot, degrees of freedom refers to the number of independent movements or axes along which it can move. Each degree of freedom corresponds to a specific type of motion the robot can perform, such as translation along a linear axis or rotation around a rotational axis.
+</div>
 
 <br>
 
+<div align="justify">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The concept of degrees of freedom is essential for designing and controlling robots effectively. It helps engineers and researchers determine the kinematic structure of a robot, understand its workspace, and develop algorithms for motion planning and control. The degrees of freedom of a robot influence its agility, versatility, and ability to perform various tasks in different environments.
 </div>
  
