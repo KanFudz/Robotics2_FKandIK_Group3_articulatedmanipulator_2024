@@ -11,7 +11,11 @@ from roboticstoolbox import DHRobot, RevoluteDH, PrismaticDH
 root = Tk()
 root.title('Articulated Calculator')
 root.resizable(False, False)
-root.configure(bg='black')
+root.geometry("600x400")
+pc = PhotoImage(file="/home/john/Rob2_3202/bgrobo.png")
+blabel=Label(root,image=pc)
+blabel.place(x=0,y=0, relwidth=1, relheight=1)
+
 
 def Forward_Kinematics():
     global a1_entry, a2_entry, a3_entry, T1_entry, T2_entry, T3_entry, X_output, Y_output, Z_output
