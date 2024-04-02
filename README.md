@@ -338,7 +338,13 @@ Each row corresponds to a joint in the manipulator, and the parameters define th
  
 ![HTM1](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157782959/c078fed1-b4a9-445a-b752-b06cd6acdd54)
 ![HTM2](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157782959/89d03ab2-9463-4ad7-832d-454189ce2813)
-https://youtu.be/xQnQXaHRIYk?si=yA6HkXO1fwp9OPeH
+
+### How to solve HTM of Articulated manipulator
+
+[![Video Thumbnail](https://img.youtube.com/vi/xQnQXaHRIYk/0.jpg)](https://www.youtube.com/watch?v=xQnQXaHRIYk)
+
+Click on the image above to watch the video.
+
 
 </div>
 
