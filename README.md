@@ -157,7 +157,7 @@ $$
 M = 6n - \sum_{i=1}^{m}(6 - C_i)
 $$
 
-<br>
+
 ![DOF](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157782959/0631420d-9b88-43fb-b8e7-8c210785d515)
 
 https://youtu.be/g7lCQ4IBkvA?si=sfeKAJghAUmwzX5e
