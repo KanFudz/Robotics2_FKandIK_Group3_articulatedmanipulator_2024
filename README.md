@@ -38,7 +38,7 @@ Your abstract content goes here. Replace this text with your actual abstract.
 <div style="text-align: justify;">
 
 ### Introduction to Articulated Manipulator or Anthropomorphic Manipulator
-&nbsp;Welcome to the introduction of the Articulated Manipulator! In this section, we'll explore the fundamental components and functionalities of an articulated manipulator with three joint variables: twisting joint, revolute joint, and revolute joint. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Welcome to the introduction of the Articulated Manipulator! In this section, we'll explore the fundamental components and functionalities of an articulated manipulator with three joint variables: twisting joint, revolute joint, and revolute joint. 
 
  
 ### Purpose and Use
