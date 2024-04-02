@@ -28,6 +28,7 @@
 <br>
 
 <div align="justify">
+ 
 ## I. Abstract of the Project<a name="abstract"></a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This project explores the fundamental principles governing the motion control of articulated manipulators, focusing specifically on robotic arms equipped with rotary joints. Combining theoretical insights with practical implementations for a cohesive understanding of this dynamic field.
 <br>
