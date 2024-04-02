@@ -32,8 +32,10 @@
 <br>
 
 ## II. Introduction of the Project<a name="introduction">
-
+<div align="center">
+ 
 ![432889743_458344376635490_3344111488579056072_n](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157684612/4990b5fd-4de6-4f8b-9e64-4fab57a77057)
+</div>
 
 
 ### Introduction to Articulated Manipulator or Anthropomorphic Manipulator
@@ -142,8 +144,10 @@ $$
 M = 6n - \sum_{i=1}^{m}(6 - C_i)
 $$
 
-
+<div align="center">
+ 
 ![DOF](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157782959/0631420d-9b88-43fb-b8e7-8c210785d515)
+</div>
 
 https://youtu.be/g7lCQ4IBkvA?si=sfeKAJghAUmwzX5e
 
@@ -208,16 +212,18 @@ The following are used to assign frames in a kinematic diagram for applying D-H 
  - Or translate the axis until it hits the other.
 
 **Rule 4:** All frames must follow the right-hand rule. <br>
+<div align="center">
 ![righthandrule](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157684612/239bcd4a-81ac-41cb-b37c-17f9952bfb8d)
-
+</div>
  
 ### Kinematic Diagram and D-H Frame Assignment
 <div align="justify">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Below is the kinematic diagram and D-H frame assignment of the articulated manipulator with a twisting joint and 2 revolute joints. Wherein Links, Joint Variables, Z, X, Y axis are identified.
 </div>
 
+<div align="center">
 ![Screenshot 2024-04-02 101920](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157782959/202b4767-da41-4d16-84e7-3a760072f749)
-
+</div>
 
 
 
@@ -261,8 +267,10 @@ The D-H parametric table organizes the D-H parameters associated with each manip
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The D-H parametric table consists of rows corresponding to each joint of the manipulator. Each row includes the D-H parameters for that joint.
 
 ### D-H Parametric Table of Articulated Manipulator
-
+<div align="center">
+ 
 ![Screenshot 2024-04-02 101927](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157782959/567a5b41-1098-47a3-96f4-dfe08b736ef3)
+</div>
 
 This table shows the Homegeneous Transformation Matrix from frame 0 to frame 3. Theta, Alpha, r and d of Articulated Manipulator
 
@@ -279,9 +287,12 @@ Each row corresponds to a joint in the manipulator, and the parameters define th
 ### Concept
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The HTM is a 4x4 matrix that combines rotation and translation transformations. It enables us to express both the position (translation) and orientation (rotation) of a coordinate frame relative to another coordinate frame.
 
+<div align="center">
 ![HTM1](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157782959/c078fed1-b4a9-445a-b752-b06cd6acdd54)
 ![HTM2](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157782959/89d03ab2-9463-4ad7-832d-454189ce2813)
 https://youtu.be/xQnQXaHRIYk?si=yA6HkXO1fwp9OPeH
+</div>
+
 <br>
 
  
@@ -289,10 +300,12 @@ https://youtu.be/xQnQXaHRIYk?si=yA6HkXO1fwp9OPeH
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inverse Kinematics is same with the Forward Kinematics, they are used to make mechanical manipulator move. The difference between them is that in Forward Kinematics, the given inputs are Joint Variables and by using the Homogeneous Transformation Matrix we will be able to get the output which is Position Vector. While in Inverse Kinematics, the given is the Position Vector and the output is Joint Variables
 
 **The image below are the computation of each equation for Articulated Manipulator in Top View**
+<div align="center">
 ![INV1](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157782959/2072741b-b4e9-48a5-b0cb-d4e277255611)
 **The images below are the computation of each equation for Articulated Manipulator in Front View**
 ![INV2](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157782959/dc018f20-ddf5-49e3-85a6-6bf237a15956)
 ![INV3](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157782959/e62e87fb-ea0d-4131-9d43-433cc6b1e6db)
+</div>
 
 
 <br>
@@ -324,7 +337,11 @@ https://youtu.be/xQnQXaHRIYk?si=yA6HkXO1fwp9OPeH
 - **tkinter**: Used for creating the graphical user interface.
 
 ### Color Palette
+<div align="center">
+ 
 ![15773625-2bbe-4b32-b30f-c6a049a4ec2c](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157684612/39504e36-4872-4113-89a6-5e02bab6458a)
+</div>
+
 #012228<br>
 #032b28<br>
 #0d3f2e<br>
@@ -336,7 +353,10 @@ https://youtu.be/xQnQXaHRIYk?si=yA6HkXO1fwp9OPeH
 #65ae91<br>
 <br>
 
+<div align="center">
 ![f2044472-a2e4-49a1-8387-284820694157](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157684612/235eff19-ccdd-4a09-bc2f-9915cb2073a8)
+</div>
+
 #220203<br>
 #380506<br>
 #540f0d<br>
