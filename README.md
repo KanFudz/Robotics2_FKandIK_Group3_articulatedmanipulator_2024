@@ -24,7 +24,10 @@
  <br>
 [IX. References](#references)
 <br>
- 
+[X. Group Members](#Group-Members)
+<br>
+
+
 ## I. Abstract of the Project<a name="abstract"></a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Your abstract content goes here. Replace this text with your actual abstract.
 
@@ -436,4 +439,11 @@ https://www.youtube.com/watch?v=QprI0SRvqSk&list=PLUgsbeZHs9qNk2rwPdRH-kn6eUQlJJ
 
 https://youtube.com/watch?v=PBD06Toaymw&si=DnEPvbjfd-WdqmPv
 
+## X. Group Members<a name="Group-Members"></a>
+
+1. Comia
+2. Hernandez
+3. Malabanan
+4. Malata, John Rei R. (21-08864)
+5. Medrano
 </div>
