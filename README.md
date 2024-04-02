@@ -260,6 +260,7 @@ The following are used to assign frames in a kinematic diagram for applying D-H 
 </div>
 
 <div align="justify">
+ 
 ### Steps in Denavit-Hartenberg Notation
 1. Assign the frames according to the 4 D-H Frame Rules.
 2. Construct and fill out the D-H Parametric Table.
@@ -279,7 +280,7 @@ The D-H parametric table organizes the D-H parameters associated with each manip
 3. "**d**" is Represents the distance from the origin of frame n-1 to frame n along the Z<sub>n-1</sub> direction. For prismatic joints, d is the joint variable.
 
 4. "**θ**" is Rotation around Z<sub>n-1</sub> required to align X<sub>n-1</sub> with X<sub>n</sub>, with θ as the joint variable for revolute or twisting joints.
-
+</div>
 
 ### Components of the D-H Parametric Table
 
