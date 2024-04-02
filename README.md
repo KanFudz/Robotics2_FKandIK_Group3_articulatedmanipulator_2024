@@ -58,29 +58,24 @@ Your abstract content goes here. Replace this text with your actual abstract.
 ### Historical Context
  The development of articulated manipulators traces back to the mid-20th century, with significant advancements occurring in robotics research and industrial automation. Early manipulators were primarily designed for repetitive tasks in manufacturing environments. One notable example is the "Unimate," developed by George Devol and Joseph Engelberger in the 1950s, which became the first industrial robot to be employed in production lines.
 
-<h3>
 
-### Advancements in Robotics Technology</h3>
+### Advancements in Robotics Technology
  Articulated manipulators have played a pivotal role in advancing robotics technology. Over the decades, advancements in materials, sensors, and control systems have led to the evolution of these manipulators into highly sophisticated and versatile robotic systems. Today, they are integral to automation across various industries, driving innovation, improving efficiency, and expanding the possibilities of robotics applications.
 
 </div>
 
 
 <br>
-<h2>
  
-## III. Degrees of Freedom of Articulated Manipulator<a name="degrees-of-freedom"></a></h2>
+## III. Degrees of Freedom of Articulated Manipulator<a name="degrees-of-freedom"></a>
 In general, degrees of freedom (DOF) refers to the number of independent parameters or variables that define the configuration of a system. It represents the number of ways a mechanical system can move without violating any constraints. In physics and engineering, DOF is crucial for analyzing and understanding the behavior of various systems, including mechanical structures, molecules, and robots.
 
 In robotics, degrees of freedom play a significant role in characterizing the motion capabilities of robotic systems. For a robot, degrees of freedom refers to the number of independent movements or axes along which it can move. Each degree of freedom corresponds to a specific type of motion the robot can perform, such as translation along a linear axis or rotation around a rotational axis.
 
 The concept of degrees of freedom is essential for designing and controlling robots effectively. It helps engineers and researchers determine the kinematic structure of a robot, understand its workspace, and develop algorithms for motion planning and control. The degrees of freedom of a robot influence its agility, versatility, and ability to perform various tasks in different environments.
 
-
-<h3>
  
-The following are ideal DOF:
-</h3>
+### The following are ideal DOF:
 - A point in 2D: 2 DOF; in 3D: 3 DOF<br>
 - A Rigid Body in 3D: 6 DOF<br>
 - Planar Manipulator: 3 DOF<br>
@@ -88,10 +83,7 @@ The following are ideal DOF:
 
 <br>
 
-<h3>
- 
-**Type of Manipulator Based on the number of DOF**
-</h3>
+### **Type of Manipulator Based on the number of DOF**
 
 |**Manipulator Type** | **DOF (f)** |
 | --------------- | --------------- |
@@ -115,28 +107,21 @@ The following are ideal DOF:
 <br>
 
 
-<h3>
-
-**DOF vs Mobility** 
-</h3>
+### **DOF vs Mobility** 
 
 - If the DOF of a manipulator is more than the ideal or based on the calculation indicates a Redundant Manipulator, it will be called **MOBILITY**.
 
 <br>
-<h3>
  
-**Grubler's Criterion for Mobility/DOF of Planar Manipulator**
-</h3>
+### **Grubler's Criterion for Mobility/DOF of Planar Manipulator**
+
 
 $$
 M = 3n - \sum_{i=1}^{m}(3 - C_i)
 $$
 
 
-<h3>
- 
-**Grubler's Criterion for Mobility/DOF of Spatial Manipulator**
-</h3>
+### **Grubler's Criterion for Mobility/DOF of Spatial Manipulator**
 
 $$
 M = 6n - \sum_{i=1}^{m}(6 - C_i)
@@ -145,7 +130,7 @@ $$
 <br>
 
 **The image below is the computation of Degrees of Freedom of RRR Articulated manipulator which is a spatial manipulator. So we are to use the formula**
-</h3>
+
 
 $$
 M = 6n - \sum_{i=1}^{m}(6 - C_i)
@@ -158,19 +143,12 @@ https://youtu.be/g7lCQ4IBkvA?si=sfeKAJghAUmwzX5e
 
 <br>
 
-<h2>
-
 ## IV. Kinematic Diagram and D-H Frame Assignment of Articulated Manipulator<a name="kinematic-diagram"></a>
-</h2>
 
 In robotics, a kinematic diagram is a schematic representation used to visualize the structure and motion of a robotic manipulator. It illustrates the arrangement of joints and links in the manipulator, as well as the direction of motion allowed at each joint.
 
 
-
-<h3>
-
 ### Purpose of Kinematic Diagrams
-</h3>
 
 Kinematic diagrams serve several purposes in robotics:
 
@@ -180,11 +158,8 @@ Kinematic diagrams serve several purposes in robotics:
 
 3. **Analysis**: Kinematic diagrams are used in kinematic analysis to study the relationship between joint motions and end-effector positions.
 
-
-<h3>
  
 ### Components of a Kinematic Diagram
-</h3>
 
 A typical kinematic diagram includes the following components:
 
@@ -195,18 +170,15 @@ A typical kinematic diagram includes the following components:
 3. **Axes**: Indicate the axes of rotation or translation associated with each joint.
 
 
-<h3>
  
 ### D-H Frame Assignment
-</h3>
+
 
 The Denavit-Hartenberg (D-H) frame assignment is commonly used in robotics to define the coordinate frames associated with each joint. This assignment simplifies the kinematic analysis of robotic manipulators by providing a systematic method for describing their geometry and motion.
 
 
-<h3>
-
 ### Frames
-</h3>
+
 In a mechanical manipulator a coordinate system that the manipulator uses to know where it is and where to go. There are generally 3 types of frames used on a mechanical manipulator:
 
 - **Base (World) frame**
@@ -214,10 +186,10 @@ In a mechanical manipulator a coordinate system that the manipulator uses to kno
 - **Tool frame**
 
 
-<h3>
+
 
 ### D-H Frame Rules
-</h3>
+
 The following are used to assign frames in a kinematic diagram for applying D-H Notation.<br>
 
 **Rule 1:** The z-axis must be the axis of rotation for a revolute / twisting joint or the direction of translation for a prismatic joint.<br>
@@ -230,13 +202,8 @@ The following are used to assign frames in a kinematic diagram for applying D-H 
 **Rule 4:** All frames must follow the right-hand rule. <br>
 ![righthandrule](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157684612/239bcd4a-81ac-41cb-b37c-17f9952bfb8d)
 
-
-
-
-<h3>
  
 ### Kinematic Diagram and D-H Frame Assignment
-</h3>
 
 Below is the kinematic diagram and D-H frame assignment of the articulated manipulator with a twisting joint and 2 revolute joints. Wherein Links, Joint Variables, Z, X, Y axis are indentified.
 
@@ -247,31 +214,26 @@ Below is the kinematic diagram and D-H frame assignment of the articulated manip
 
 
 <br>
-<h2>
  
-## V. D-H Parametric Table of Articulated Manipulator<a name="parametric-table"></a></h2>
+## V. D-H Parametric Table of Articulated Manipulator<a name="parametric-table"></a>
 
 The Denavit-Hartenberg (D-H) parameters are used to describe the kinematic properties of robotic manipulators. They provide a standardized method for defining the coordinate frames and transformations between adjacent links in a manipulator.
 
-<h3>
  
 ### D-H Notation
-</h3>
 
 **Jacques Denavit** and **Richard Hartenberg** introduced this convention in 1955 to standardize the coordinate frames for spatial linkages. D-H Notation is used to solve the forward kinematics of a mechanical manipulator.
 
-<h3>
 
-### Steps in Denavit-Hartenberg Notation</h3>
+### Steps in Denavit-Hartenberg Notation
 1. Assign the frames according to the 4 D-H Frame Rules.
 2. Construct and fill out the D-H Parametric Table.
 3. Plug the table into the Homogeneous Transformation Matrix form.
 4. Multiply the matrices together.
 
-<h3>
 
 ### Purpose of D-H Parametric Table
-</h3>
+
 
 The D-H parametric table organizes the D-H parameters associated with each manipulator joint. These parameters include:
 
@@ -299,14 +261,12 @@ Each row corresponds to a joint in the manipulator, and the parameters define th
 
 <br>
 
-<h2>
  
-## VI. HTM of Articulated Manipulator<a name="htm"></a></h2>
+## VI. HTM of Articulated Manipulator<a name="htm"></a>
 In robotics, the Homogeneous Transformation Matrix (HTM) is a mathematical representation used to describe the transformation between coordinate frames in a robotic system. It allows us to represent the position and orientation of one coordinate frame relative to another.
 
-<h3>
  
-### Concept</h3>
+### Concept
 The HTM is a 4x4 matrix that combines rotation and translation transformations. It enables us to express both the position (translation) and orientation (rotation) of a coordinate frame relative to another coordinate frame.
 
 ![HTM1](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157782959/c078fed1-b4a9-445a-b752-b06cd6acdd54)
@@ -314,9 +274,8 @@ The HTM is a 4x4 matrix that combines rotation and translation transformations. 
 https://youtu.be/xQnQXaHRIYk?si=yA6HkXO1fwp9OPeH
 <br>
 
-<h2>
  
-## VII. Inverse Kinematics of Articulated Manipulator<a name="inverse-kinematics"></a></h2>
+## VII. Inverse Kinematics of Articulated Manipulator<a name="inverse-kinematics"></a>
 Inverse Kinematics is same with the Forward Kinematics, they are used to make mechanical manipulator move. The difference between them is that in Forward Kinematics, the given inputs are Joint Variables and by using the Homogeneous Transformation Matrix we will be able to get the output which is Position Vector. While in Inverse Kinematics, the given is the Position Vector and the output is Joint Variables
 
 **The image below are the computation of each equation for Articulated Manipulator in Top View**
@@ -327,9 +286,8 @@ Inverse Kinematics is same with the Forward Kinematics, they are used to make me
 
 
 <br>
-<h2>
 
-## VIII. Forward and Inverse Kinematics GUI calculator of Articulated Manipulator<a name="gui-calculator"></a></h2>
+## VIII. Forward and Inverse Kinematics GUI calculator of Articulated Manipulator<a name="gui-calculator"></a>
 
 ### Description
 The Articulated Manipulator Calculator is a tool designed to facilitate kinematics calculations for articulated manipulators. This calculator provides a user-friendly interface for performing both forward and inverse kinematics analyses, enabling users to determine the position and orientation of the end-effector given the joint parameters or vice versa.
@@ -384,9 +342,8 @@ The Articulated Manipulator Calculator is a tool designed to facilitate kinemati
 ### Note
 Ensure that all input parameters are provided accurately to obtain correct kinematics solutions. Additionally, familiarize yourself with the limitations and assumptions of kinematics models used in the calculations.
 
-<h2>
 
-## IX. References<a name="references"></a></h2>
+## IX. References<a name="references"></a>
 https://www.youtube.com/watch?v=i1wgyfCF-aI&list=PLUgsbeZHs9qNk2rwPdRH-kn6eUQlJJl5c&index=7
 
 https://www.youtube.com/watch?v=TKS_x3J55C8&list=PLUgsbeZHs9qNk2rwPdRH-kn6eUQlJJl5c&index=8
