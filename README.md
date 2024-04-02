@@ -141,7 +141,7 @@ $$
 
 <h3>
  
-**Grubler's Criterion for Mobility/DOF of Spherical Manipulator**
+**Grubler's Criterion for Mobility/DOF of Spatial Manipulator**
 </h3>
 
 $$
@@ -150,7 +150,7 @@ $$
  	
 <br>
 
-
+The image below is the computation of Degrees of Freedom of Articulated Manipulator
 ![DOF](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157782959/0631420d-9b88-43fb-b8e7-8c210785d515)
 
 https://youtu.be/g7lCQ4IBkvA?si=sfeKAJghAUmwzX5e
