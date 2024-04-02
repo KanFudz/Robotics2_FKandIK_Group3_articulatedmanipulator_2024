@@ -289,7 +289,7 @@ The D-H parametric table consists of rows corresponding to each joint of the man
 
 ### D-H Parametric Table of Articulated Manipulator
 
-ANGELO PALAGAY DITO
+![Screenshot 2024-04-02 101927](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157782959/567a5b41-1098-47a3-96f4-dfe08b736ef3)
 
 In this table:
 description to
