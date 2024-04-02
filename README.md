@@ -183,7 +183,14 @@ $$
 ![DOF](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157782959/0631420d-9b88-43fb-b8e7-8c210785d515)
 </div>
 
-https://youtu.be/g7lCQ4IBkvA?si=sfeKAJghAUmwzX5e
+<div align="center">
+ 
+### Step-by-step process of solving the Degrees of Freedom of Articulated manipulator
+
+[![Step-by-step process of solving the Degrees of Freedom of Articulated manipulator](https://img.youtube.com/vi/g7lCQ4IBkvA/0.jpg)](https://www.youtube.com/watch?v=g7lCQ4IBkvA)
+
+Click on the image above to watch the video.
+</div>
 
 <br>
 
