@@ -317,6 +317,7 @@ https://youtu.be/xQnQXaHRIYk?si=yA6HkXO1fwp9OPeH
 
  
 ## VII. Inverse Kinematics of Articulated Manipulator<a name="inverse-kinematics"></a>
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inverse Kinematics is same with the Forward Kinematics, they are used to make mechanical manipulator move. The difference between them is that in Forward Kinematics, the given inputs are Joint Variables and by using the Homogeneous Transformation Matrix we will be able to get the output which is Position Vector. While in Inverse Kinematics, the given is the Position Vector and the output is Joint Variables
 
 **The image below are the computation of each equation for Articulated Manipulator in Top View**
@@ -337,11 +338,13 @@ https://youtu.be/xQnQXaHRIYk?si=yA6HkXO1fwp9OPeH
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Articulated Manipulator Calculator is a tool designed to facilitate kinematics calculations for articulated manipulators. This calculator provides a user-friendly interface for performing both forward and inverse kinematics analyses, enabling users to determine the position and orientation of the end-effector given the joint parameters or vice versa.
 
 ### Key Features
+
 - **Forward Kinematics**: Calculates the position and orientation of the end-effector based on the joint parameters (link lengths and joint angles).
   
 - **Inverse Kinematics**: Computes the joint parameters required to achieve a desired position and orientation of the end-effector.
 
 ### Benefits
+
 - **Ease of Use**: The graphical user interface simplifies the input of parameters and visualization of results, making kinematics calculations more accessible.
   
 - **Efficiency**: By automating kinematics calculations, the calculator reduces the time and effort required to analyze the manipulator's motion.
@@ -349,6 +352,7 @@ https://youtu.be/xQnQXaHRIYk?si=yA6HkXO1fwp9OPeH
 - **Visualization**: Users can visualize the manipulator's movements and configurations through the graphical interface, aiding in understanding and analysis.
 
 ### Dependencies
+
 - **numpy**: Required for numerical computations.
   
 - **matplotlib**: Used for visualization purposes.
