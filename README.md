@@ -311,6 +311,7 @@ Each row corresponds to a joint in the manipulator, and the parameters define th
 ![HTM1](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157782959/c078fed1-b4a9-445a-b752-b06cd6acdd54)
 ![HTM2](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157782959/89d03ab2-9463-4ad7-832d-454189ce2813)
 https://youtu.be/xQnQXaHRIYk?si=yA6HkXO1fwp9OPeH
+
 </div>
 
 <br>
@@ -365,6 +366,7 @@ https://youtu.be/xQnQXaHRIYk?si=yA6HkXO1fwp9OPeH
 <div align="center">
  
 ![15773625-2bbe-4b32-b30f-c6a049a4ec2c](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157684612/39504e36-4872-4113-89a6-5e02bab6458a)
+
 </div>
 
 #012228<br>
@@ -379,7 +381,9 @@ https://youtu.be/xQnQXaHRIYk?si=yA6HkXO1fwp9OPeH
 <br>
 
 <div align="center">
+ 
 ![f2044472-a2e4-49a1-8387-284820694157](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157684612/235eff19-ccdd-4a09-bc2f-9915cb2073a8)
+
 </div>
 
 #220203<br>
