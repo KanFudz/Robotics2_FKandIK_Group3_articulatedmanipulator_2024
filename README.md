@@ -349,8 +349,12 @@ https://youtu.be/xQnQXaHRIYk?si=yA6HkXO1fwp9OPeH
 
 ### Key Features
 
-- **Forward Kinematics**: Calculates the position and orientation of the end-effector based on the joint parameters (link lengths and joint angles).
-  
+- **Forward Kinematics Button**: Shows a section for Link lengths and Joint variables (input), Position Vector (output), Calculate Button, and Reset Button. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - **Calculate Button**: Calculates the position and orientation of the end-effector based on the joint parameters (link lengths and joint angles).<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - **Reset Button**: Empties the input and output fields.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - **Articulated Manipulator Simulation**: As a result of the Forward Kinematics Calculation, a simulation reflecting the input and output values is presented.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - **Messagebox For Error**: Shows a predetermined message if the inputs on the entry field are invalid.<br>
+
 - **Inverse Kinematics**: Computes the joint parameters required to achieve a desired position and orientation of the end-effector.
 
 ### Benefits
@@ -370,6 +374,11 @@ https://youtu.be/xQnQXaHRIYk?si=yA6HkXO1fwp9OPeH
 - **roboticstoolbox**: A Python toolbox for robot manipulators, providing functions for kinematics calculations.
   
 - **tkinter**: Used for creating the graphical user interface.
+
+- **messagebox**: Used to create a messagebox for errors in the input field.
+
+- **PhotoImage**: Used to create a background using a photo.
+
 
 ### GUI Color Palette
 <div align="center">
