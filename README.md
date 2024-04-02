@@ -451,10 +451,6 @@ Click on the image above to watch the video.
 #c02a2a<br>
 #d04346<br>
 
-<br>
-
-
-
 ### Note
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ensure that all input parameters are provided accurately to obtain correct kinematics solutions. Additionally, familiarize yourself with the limitations and assumptions of kinematics models used in the calculations.
 
@@ -485,9 +481,9 @@ https://youtube.com/watch?v=PBD06Toaymw&si=DnEPvbjfd-WdqmPv
 
 ## X. Group Members<a name="Group-Members"></a>
 
-1. Comia, Alexandria B. (21-07197)
+1.** Comia, Alexandria B.** (21-07197)
 2. Hernandez
 3. Malabanan
-4. Malata, John Rei R. (21-08864)
+4. **Malata, John Rei R.** (21-08864)
 5. Medrano
 </div>
