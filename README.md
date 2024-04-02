@@ -27,7 +27,7 @@
 [X. Group Members](#Group-Members)
 <br>
 
-
+<div align="justify">
 ## I. Abstract of the Project<a name="abstract"></a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This project explores the fundamental principles governing the motion control of articulated manipulators, focusing specifically on robotic arms equipped with rotary joints. Combining theoretical insights with practical implementations for a cohesive understanding of this dynamic field.
 <br>
@@ -43,6 +43,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;By seamlessly integrating theory with hands-on application and facilitating user engagement, this project offers a cohesive exploration of manipulator kinematics, empowering users to understand and utilize these concepts effectively in practical robotics applications.
 <br>
+</div>
 
 ## II. Introduction of the Project<a name="introduction">
 <div align="center">
