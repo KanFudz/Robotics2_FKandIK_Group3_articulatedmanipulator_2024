@@ -244,7 +244,7 @@ The following are used to assign frames in a kinematic diagram for applying D-H 
 ### Kinematic Diagram and D-H Frame Assignment
 </h3>
 
-Below is the kinematic diagram and D-H frame assignment of the articulated manipulator with a twisting joint and 2 revolute joints:
+Below is the kinematic diagram and D-H frame assignment of the articulated manipulator with a twisting joint and 2 revolute joints. Wherein Links, Joint Variables, Z, X, Y axis are indentified.
 
 ![Screenshot 2024-04-02 101920](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157782959/202b4767-da41-4d16-84e7-3a760072f749)
 
