@@ -228,6 +228,7 @@ The following are used to assign frames in a kinematic diagram for applying D-H 
 </div>
 
 <div align="center">
+ 
 ![Screenshot 2024-04-02 101920](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157782959/202b4767-da41-4d16-84e7-3a760072f749)
 </div>
 
@@ -294,6 +295,7 @@ Each row corresponds to a joint in the manipulator, and the parameters define th
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The HTM is a 4x4 matrix that combines rotation and translation transformations. It enables us to express both the position (translation) and orientation (rotation) of a coordinate frame relative to another coordinate frame.
 
 <div align="center">
+ 
 ![HTM1](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157782959/c078fed1-b4a9-445a-b752-b06cd6acdd54)
 ![HTM2](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157782959/89d03ab2-9463-4ad7-832d-454189ce2813)
 https://youtu.be/xQnQXaHRIYk?si=yA6HkXO1fwp9OPeH
