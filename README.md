@@ -409,7 +409,7 @@ https://www.youtube.com/watch?v=caK3hJHN_CE&list=PLUgsbeZHs9qNk2rwPdRH-kn6eUQlJJ
 
 https://www.youtube.com/watch?v=Jj5pqbQWKuE&list=PLUgsbeZHs9qPc44a8O7MIcecCjpJteFwq&index=51
 
-https://www.youtube.com/watch?v=0u2MycVhZSU&list=PLUgsbeZHs9qNk2rwPdRH-kn6eUQlJJl5c&index=21&t=1093s
+https://www.youtube.com/watch?v=0u2MycVhZSU&list=PLUgsbeZHs9qNk2rwPdRH-kn6eUQlJJl5c&index=21
 
 https://www.youtube.com/watch?v=QprI0SRvqSk&list=PLUgsbeZHs9qNk2rwPdRH-kn6eUQlJJl5c&index=27
 
