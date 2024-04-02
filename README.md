@@ -346,7 +346,12 @@ https://youtu.be/xQnQXaHRIYk?si=yA6HkXO1fwp9OPeH
 <div align="center">
  
 ![INV1](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157782959/2072741b-b4e9-48a5-b0cb-d4e277255611)
+</div>
+
 **The images below are the computation of each equation for Articulated Manipulator in Front View**
+
+<div align="center">
+ 
 ![INV2](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157782959/dc018f20-ddf5-49e3-85a6-6bf237a15956)
 ![INV3](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157782959/e62e87fb-ea0d-4131-9d43-433cc6b1e6db)
 </div>
