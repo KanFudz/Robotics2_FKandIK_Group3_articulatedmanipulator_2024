@@ -78,18 +78,21 @@
 
 ## III. Degrees of Freedom of Articulated Manipulator<a name="degrees-of-freedom"></a>
 <div align="justify">
+ 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In general, degrees of freedom (DOF) refers to the number of independent parameters or variables that define the configuration of a system. It represents the number of ways a mechanical system can move without violating any constraints. In physics and engineering, DOF is crucial for analyzing and understanding the behavior of various systems, including mechanical structures, molecules, and robots.
 </div>
 
 <br>
  
 <div align="justify">
+ 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In robotics, degrees of freedom play a significant role in characterizing the motion capabilities of robotic systems. For a robot, degrees of freedom refers to the number of independent movements or axes along which it can move. Each degree of freedom corresponds to a specific type of motion the robot can perform, such as translation along a linear axis or rotation around a rotational axis.
 </div>
 
 <br>
 
 <div align="justify">
+ 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The concept of degrees of freedom is essential for designing and controlling robots effectively. It helps engineers and researchers determine the kinematic structure of a robot, understand its workspace, and develop algorithms for motion planning and control. The degrees of freedom of a robot influence its agility, versatility, and ability to perform various tasks in different environments.
 </div>
  
@@ -171,6 +174,7 @@ https://youtu.be/g7lCQ4IBkvA?si=sfeKAJghAUmwzX5e
 
 ## IV. Kinematic Diagram and D-H Frame Assignment of Articulated Manipulator<a name="kinematic-diagram"></a>
 <div align="justify">
+ 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In robotics, a kinematic diagram is a schematic representation used to visualize the structure and motion of a robotic manipulator. It illustrates the arrangement of joints and links in the manipulator, as well as the direction of motion allowed at each joint.
 </div>
 
@@ -249,6 +253,7 @@ The following are used to assign frames in a kinematic diagram for applying D-H 
 <br>
  
 ## V. D-H Parametric Table of Articulated Manipulator<a name="parametric-table"></a>
+
 <div align="justify">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Denavit-Hartenberg (D-H) parameters are used to describe the kinematic properties of robotic manipulators. They provide a standardized method for defining the coordinate frames and transformations between adjacent links in a manipulator.
 </div>
@@ -256,7 +261,7 @@ The following are used to assign frames in a kinematic diagram for applying D-H 
 ### D-H Notation
 <div align="justify">
  
-**Jacques Denavit** and **Richard Hartenberg** introduced this convention in 1955 to standardize the coordinate frames for spatial linkages. D-H Notation is used to solve the forward kinematics of a mechanical manipulator.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Jacques Denavit** and **Richard Hartenberg** introduced this convention in 1955 to standardize the coordinate frames for spatial linkages. D-H Notation is used to solve the forward kinematics of a mechanical manipulator.
 </div>
 
 <div align="justify">
@@ -363,7 +368,7 @@ https://youtu.be/xQnQXaHRIYk?si=yA6HkXO1fwp9OPeH
   
 - **tkinter**: Used for creating the graphical user interface.
 
-### Color Palette
+### GUI Color Palette
 <div align="center">
  
 ![15773625-2bbe-4b32-b30f-c6a049a4ec2c](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157684612/39504e36-4872-4113-89a6-5e02bab6458a)
@@ -397,13 +402,18 @@ https://youtu.be/xQnQXaHRIYk?si=yA6HkXO1fwp9OPeH
 #c02a2a<br>
 #d04346<br>
 
-<br>
+<be>
+
+### Libraries Used
+
+
 
 ### Note
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ensure that all input parameters are provided accurately to obtain correct kinematics solutions. Additionally, familiarize yourself with the limitations and assumptions of kinematics models used in the calculations.
 
 
 ## IX. References<a name="references"></a>
+
 https://www.youtube.com/watch?v=i1wgyfCF-aI&list=PLUgsbeZHs9qNk2rwPdRH-kn6eUQlJJl5c&index=7
 
 https://www.youtube.com/watch?v=TKS_x3J55C8&list=PLUgsbeZHs9qNk2rwPdRH-kn6eUQlJJl5c&index=8
