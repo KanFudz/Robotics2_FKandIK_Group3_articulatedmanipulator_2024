@@ -35,14 +35,17 @@
 
 ![432889743_458344376635490_3344111488579056072_n](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157684612/4990b5fd-4de6-4f8b-9e64-4fab57a77057)
 
-<div style="text-align: justify;">
 
 ### Introduction to Articulated Manipulator or Anthropomorphic Manipulator
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Welcome to the introduction of the Articulated Manipulator! In this section, we'll explore the fundamental components and functionalities of an articulated manipulator with three joint variables: twisting joint, revolute joint, and revolute joint. 
 
+<div align="justify">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Welcome to the introduction of the Articulated Manipulator! In this section, we'll explore the fundamental components and functionalities of an articulated manipulator with three joint variables: twisting joint, revolute joint, and revolute joint. 
+</div>
  
 ### Purpose and Use
+<div align="justify">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Articulated manipulators are versatile robotic systems designed for precise and flexible manipulation tasks in various industries. Their primary purpose is to handle objects, perform assembly tasks, and execute complex maneuvers with accuracy and efficiency. These manipulators find applications in:
+</div>
 
 - **Manufacturing:** Assembling products on assembly lines, handling materials in production processes, and performing quality control inspections.
 - **Construction:** Handling heavy materials, assisting in building structures, and executing tasks in hazardous environments.
@@ -50,30 +53,33 @@
 
 
 ### Components of an Articulated Manipulator
+<div align="justify">
 - **Twisting Joint:** The twisting joint allows continuous rotation around an axis, enabling the manipulator to twist or rotate freely. It provides the manipulator with the ability to orient itself and adjust its position dynamically, enhancing its adaptability to different tasks and environments.
 - **Revolute Joint:** A revolute joint facilitates rotation around a fixed axis within a limited range or angle. Similar to the hinge of a door, it enables the manipulator to bend, pivot, and articulate at specific points. This joint adds flexibility to the manipulator's movements, allowing it to reach various positions and orientations within its workspace.
 - **Revolute Joint:** Another revolute joint further enhances the manipulator's articulation and maneuverability. Operating independently, it provides additional degrees of freedom, expanding the manipulator's dexterity and agility. With multiple revolute joints, the manipulator gains increased versatility, making it capable of performing complex tasks requiring precise positioning and manipulation.
-
+</div>
 
 ### Historical Context
+<div align="justify">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The development of articulated manipulators traces back to the mid-20th century, with significant advancements occurring in robotics research and industrial automation. Early manipulators were primarily designed for repetitive tasks in manufacturing environments. One notable example is the "Unimate," developed by George Devol and Joseph Engelberger in the 1950s, which became the first industrial robot to be employed in production lines.
-
+</div>
 
 ### Advancements in Robotics Technology
+<div align="justify">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Articulated manipulators have played a pivotal role in advancing robotics technology. Over the decades, advancements in materials, sensors, and control systems have led to the evolution of these manipulators into highly sophisticated and versatile robotic systems. Today, they are integral to automation across various industries, driving innovation, improving efficiency, and expanding the possibilities of robotics applications.
-
 </div>
 
 
 <br>
- 
+
 ## III. Degrees of Freedom of Articulated Manipulator<a name="degrees-of-freedom"></a>
+<div align="justify">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In general, degrees of freedom (DOF) refers to the number of independent parameters or variables that define the configuration of a system. It represents the number of ways a mechanical system can move without violating any constraints. In physics and engineering, DOF is crucial for analyzing and understanding the behavior of various systems, including mechanical structures, molecules, and robots.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In robotics, degrees of freedom play a significant role in characterizing the motion capabilities of robotic systems. For a robot, degrees of freedom refers to the number of independent movements or axes along which it can move. Each degree of freedom corresponds to a specific type of motion the robot can perform, such as translation along a linear axis or rotation around a rotational axis.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The concept of degrees of freedom is essential for designing and controlling robots effectively. It helps engineers and researchers determine the kinematic structure of a robot, understand its workspace, and develop algorithms for motion planning and control. The degrees of freedom of a robot influence its agility, versatility, and ability to perform various tasks in different environments.
-
+</div>
  
 ### The following are ideal DOF:
 - A point in 2D: 2 DOF; in 3D: 3 DOF<br>
@@ -144,9 +150,9 @@ https://youtu.be/g7lCQ4IBkvA?si=sfeKAJghAUmwzX5e
 <br>
 
 ## IV. Kinematic Diagram and D-H Frame Assignment of Articulated Manipulator<a name="kinematic-diagram"></a>
-
+<div align="justify">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In robotics, a kinematic diagram is a schematic representation used to visualize the structure and motion of a robotic manipulator. It illustrates the arrangement of joints and links in the manipulator, as well as the direction of motion allowed at each joint.
-
+</div>
 
 ### Purpose of Kinematic Diagrams
 
@@ -173,13 +179,15 @@ A typical kinematic diagram includes the following components:
  
 ### D-H Frame Assignment
 
-
+<div align="justify">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Denavit-Hartenberg (D-H) frame assignment is commonly used in robotics to define the coordinate frames associated with each joint. This assignment simplifies the kinematic analysis of robotic manipulators by providing a systematic method for describing their geometry and motion.
-
-
+</div>
+ 
 ### Frames
 
+<div align="justify">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In a mechanical manipulator a coordinate system that the manipulator uses to know where it is and where to go. There are generally 3 types of frames used on a mechanical manipulator:
+</div>
 
 - **Base (World) frame**
 - **User frame**
@@ -204,8 +212,9 @@ The following are used to assign frames in a kinematic diagram for applying D-H 
 
  
 ### Kinematic Diagram and D-H Frame Assignment
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Below is the kinematic diagram and D-H frame assignment of the articulated manipulator with a twisting joint and 2 revolute joints. Wherein Links, Joint Variables, Z, X, Y axis are indentified.
+<div align="justify">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Below is the kinematic diagram and D-H frame assignment of the articulated manipulator with a twisting joint and 2 revolute joints. Wherein Links, Joint Variables, Z, X, Y axis are identified.
+</div>
 
 ![Screenshot 2024-04-02 101920](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157782959/202b4767-da41-4d16-84e7-3a760072f749)
 
@@ -216,15 +225,16 @@ The following are used to assign frames in a kinematic diagram for applying D-H 
 <br>
  
 ## V. D-H Parametric Table of Articulated Manipulator<a name="parametric-table"></a>
-
+<div align="justify">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Denavit-Hartenberg (D-H) parameters are used to describe the kinematic properties of robotic manipulators. They provide a standardized method for defining the coordinate frames and transformations between adjacent links in a manipulator.
+</div>
 
- 
 ### D-H Notation
-
+<div align="justify">
 **Jacques Denavit** and **Richard Hartenberg** introduced this convention in 1955 to standardize the coordinate frames for spatial linkages. D-H Notation is used to solve the forward kinematics of a mechanical manipulator.
+</div>
 
-
+<div align="justify">
 ### Steps in Denavit-Hartenberg Notation
 1. Assign the frames according to the 4 D-H Frame Rules.
 2. Construct and fill out the D-H Parametric Table.
@@ -365,3 +375,5 @@ https://www.youtube.com/watch?v=0u2MycVhZSU&list=PLUgsbeZHs9qNk2rwPdRH-kn6eUQlJJ
 https://www.youtube.com/watch?v=QprI0SRvqSk&list=PLUgsbeZHs9qNk2rwPdRH-kn6eUQlJJl5c&index=27
 
 https://youtube.com/watch?v=PBD06Toaymw&si=DnEPvbjfd-WdqmPv
+
+</div>
