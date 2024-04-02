@@ -481,9 +481,9 @@ https://youtube.com/watch?v=PBD06Toaymw&si=DnEPvbjfd-WdqmPv
 
 ## X. Group Members<a name="Group-Members"></a>
 
-1.** Comia, Alexandria B.** (21-07197)
+1. Comia, Alexandria B. (21-07197)
 2. Hernandez
 3. Malabanan
-4. **Malata, John Rei R.** (21-08864)
+4. Malata, John Rei R. (21-08864)
 5. Medrano
 </div>
