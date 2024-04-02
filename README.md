@@ -355,7 +355,11 @@ https://youtu.be/xQnQXaHRIYk?si=yA6HkXO1fwp9OPeH
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - **Articulated Manipulator Simulation**: As a result of the Forward Kinematics Calculation, a simulation reflecting the input and output values is presented.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - **Messagebox For Error**: Shows a predetermined message if the inputs on the entry field are invalid.<br>
 
-- **Inverse Kinematics**: Computes the joint parameters required to achieve a desired position and orientation of the end-effector.
+- **Inverse Kinematics**: Shows a section for Link lengths and Position Vector (input), Joint Variables Orientation (output), Calculate Button, and Reset Button. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - **Calculate Button**: Computes the joint parameters required to achieve a desired position and orientation of the end-effector.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - **Reset Button**: Empties the input and output fields.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - **Articulated Manipulator Simulation**: As a result of the Forward Kinematics Calculation, a simulation reflecting the input and output values is presented.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - **Messagebox For Error**: Shows a predetermined message if the inputs on the entry field are invalid.<br>
 
 ### Benefits
 
@@ -414,9 +418,7 @@ https://youtu.be/xQnQXaHRIYk?si=yA6HkXO1fwp9OPeH
 #c02a2a<br>
 #d04346<br>
 
-<be>
-
-### Libraries Used
+<br>
 
 
 
