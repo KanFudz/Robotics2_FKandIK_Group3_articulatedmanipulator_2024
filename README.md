@@ -308,7 +308,8 @@ In robotics, the Homogeneous Transformation Matrix (HTM) is a mathematical repre
 ### Concept</h3>
 The HTM is a 4x4 matrix that combines rotation and translation transformations. It enables us to express both the position (translation) and orientation (rotation) of a coordinate frame relative to another coordinate frame.
 
-ANGELO PALAGAY DITO
+![HTM1](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157782959/c078fed1-b4a9-445a-b752-b06cd6acdd54)
+![HTM2](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157782959/89d03ab2-9463-4ad7-832d-454189ce2813)
 https://youtu.be/xQnQXaHRIYk?si=yA6HkXO1fwp9OPeH
 <br>
 
