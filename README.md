@@ -56,6 +56,7 @@
 
 ### Components of an Articulated Manipulator
 <div align="justify">
+ 
 - **Twisting Joint:** The twisting joint allows continuous rotation around an axis, enabling the manipulator to twist or rotate freely. It provides the manipulator with the ability to orient itself and adjust its position dynamically, enhancing its adaptability to different tasks and environments.
 - **Revolute Joint:** A revolute joint facilitates rotation around a fixed axis within a limited range or angle. Similar to the hinge of a door, it enables the manipulator to bend, pivot, and articulate at specific points. This joint adds flexibility to the manipulator's movements, allowing it to reach various positions and orientations within its workspace.
 - **Revolute Joint:** Another revolute joint further enhances the manipulator's articulation and maneuverability. Operating independently, it provides additional degrees of freedom, expanding the manipulator's dexterity and agility. With multiple revolute joints, the manipulator gains increased versatility, making it capable of performing complex tasks requiring precise positioning and manipulation.
@@ -77,8 +78,12 @@
 ## III. Degrees of Freedom of Articulated Manipulator<a name="degrees-of-freedom"></a>
 <div align="justify">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In general, degrees of freedom (DOF) refers to the number of independent parameters or variables that define the configuration of a system. It represents the number of ways a mechanical system can move without violating any constraints. In physics and engineering, DOF is crucial for analyzing and understanding the behavior of various systems, including mechanical structures, molecules, and robots.
-
+ 
+<br>
+ 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In robotics, degrees of freedom play a significant role in characterizing the motion capabilities of robotic systems. For a robot, degrees of freedom refers to the number of independent movements or axes along which it can move. Each degree of freedom corresponds to a specific type of motion the robot can perform, such as translation along a linear axis or rotation around a rotational axis.
+
+<br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The concept of degrees of freedom is essential for designing and controlling robots effectively. It helps engineers and researchers determine the kinematic structure of a robot, understand its workspace, and develop algorithms for motion planning and control. The degrees of freedom of a robot influence its agility, versatility, and ability to perform various tasks in different environments.
 </div>
@@ -92,6 +97,7 @@
 <br>
 
 <div align="center">
+ 
 ### **Type of Manipulator Based on the number of DOF**
 
 |**Manipulator Type** | **DOF (f)** |
@@ -279,7 +285,7 @@ The D-H parametric table organizes the D-H parameters associated with each manip
 ![Screenshot 2024-04-02 101927](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157782959/567a5b41-1098-47a3-96f4-dfe08b736ef3)
 </div>
 
-This table shows the Homegeneous Transformation Matrix from frame 0 to frame 3. Theta, Alpha, r and d of Articulated Manipulator
+This table shows the Homogeneous Transformation Matrix from frame 0 to frame 3. Theta, Alpha, r, and d of Articulated Manipulator
 
 
 Each row corresponds to a joint in the manipulator, and the parameters define the geometric relationship between adjacent links.
