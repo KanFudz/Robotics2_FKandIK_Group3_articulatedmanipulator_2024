@@ -146,6 +146,9 @@ $$
 M = 6n - \sum_{i=1}^{m}(6 - C_i)
 $$
 
+<br>
+<br>
+
 <div align="center">
  
 ![DOF](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157782959/0631420d-9b88-43fb-b8e7-8c210785d515)
@@ -215,6 +218,7 @@ The following are used to assign frames in a kinematic diagram for applying D-H 
 
 **Rule 4:** All frames must follow the right-hand rule. <br>
 <div align="center">
+ 
 ![righthandrule](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157684612/239bcd4a-81ac-41cb-b37c-17f9952bfb8d)
 </div>
  
