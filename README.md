@@ -1,5 +1,8 @@
-<h1 style="font-size: xx-large; text-align: center;">FORWARD AND INVERSE KINEMATICS OF ARTICULATED MANIPULATOR</h1><hr>
-<h2>
+<p align="center">
+ 
+# FORWARD AND INVERSE KINEMATICS OF ARTICULATED MANIPULATOR
+
+ </p>
  
 ## Project Course Portfolio</h2>
 
