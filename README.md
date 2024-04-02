@@ -393,4 +393,8 @@ Ensure that all input parameters are provided accurately to obtain correct kinem
 <h2>
 
 ## IX. References<a name="references"></a></h2>
-Paki Fill Up
+https://www.youtube.com/watch?v=i1wgyfCF-aI&list=PLUgsbeZHs9qNk2rwPdRH-kn6eUQlJJl5c&index=7
+https://www.youtube.com/watch?v=TKS_x3J55C8&list=PLUgsbeZHs9qNk2rwPdRH-kn6eUQlJJl5c&index=8
+https://www.youtube.com/watch?v=x4UnKbk0DU4&list=PLUgsbeZHs9qNk2rwPdRH-kn6eUQlJJl5c&index=9
+
+
