@@ -104,6 +104,7 @@
 ### **Type of Manipulator Based on the number of DOF**
 
 <div align="center">
+ 
 |**Manipulator Type** | **DOF (f)** |
 | --------------- | --------------- |
 | Under-actuated Manipulator    | Spatial manipulator with less than 6 DOF or a Planar manipulator with less than 3 DOF    |
