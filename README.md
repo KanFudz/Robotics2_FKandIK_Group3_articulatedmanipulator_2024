@@ -91,6 +91,7 @@
 
 <br>
 
+<div align="center">
 ### **Type of Manipulator Based on the number of DOF**
 
 |**Manipulator Type** | **DOF (f)** |
@@ -111,6 +112,7 @@
 | Cylindrical (C)    | 2    | N/A    | 4 |
 | Universal (U)    | 2    | N/A    | 4 |
 | Spherical (S)    | 3    | N/A    | 3 |
+</div>
 
 <br>
 
