@@ -495,7 +495,6 @@ _Click on the image above to watch the video._
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ensure that all input parameters are provided accurately to obtain correct kinematics solutions. Additionally, familiarize yourself with the limitations and assumptions of kinematics models used in the calculations.
 
 ### **GUI Demonstration**
-<br>
 
 **Forward Kinematics Section**<br>
 ![435411117_8221853984497692_1695651176259704803_n-ezgif com-video-to-gif-converter](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157684612/c1279027-2105-4a1d-a7c6-b9ab1f25a4d1)
