@@ -275,7 +275,7 @@ The following are used to assign frames in a kinematic diagram for applying D-H 
 ![Screenshot 2024-04-02 101920](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157782959/202b4767-da41-4d16-84e7-3a760072f749)
 
 
-### Watch the Video
+### Frame Assignment of Articulated Manipulator
 
 [![Video Thumbnail](https://img.youtube.com/vi/gjgQ8rGPYRs/0.jpg)](https://www.youtube.com/watch?v=gjgQ8rGPYRs)
 
