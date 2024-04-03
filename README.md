@@ -47,6 +47,7 @@
 </div>
 
 ## II. Introduction of the Project<a name="introduction">
+
 <div align="center">
  
 ![432889743_458344376635490_3344111488579056072_n](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157684612/4990b5fd-4de6-4f8b-9e64-4fab57a77057)
@@ -132,6 +133,7 @@
 <br>
 <br>
 
+### **Joint Classification and DOF**
 
 | **Joint Classification** | **DOF (f)** | **Constraints c between two planar rigid bodies** | **Constraints c between two spatial rigid bodies** |
 | --------------- | --------------- | --------------- | --------------- |
