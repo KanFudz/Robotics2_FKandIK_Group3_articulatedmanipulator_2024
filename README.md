@@ -336,7 +336,7 @@ Each row corresponds to a joint in the manipulator, and the parameters define th
 
 <div align="center">
 
-### **Watch the Video**
+### **D-H Parametric Table of Articulated Manipulator**
 
 [![Video Thumbnail](https://img.youtube.com/vi/TiDLddG-bKc/0.jpg)](https://www.youtube.com/watch?v=TiDLddG-bKc)
 
