@@ -271,7 +271,7 @@ The following are used to assign frames in a kinematic diagram for applying D-H 
 </div>
 
 
-
+https://youtube.com/watch?v=gjgQ8rGPYRs&si=1oKiBnmxJUh_0INC
 
 <br>
  
@@ -325,6 +325,8 @@ This table shows the Homogeneous Transformation Matrix from frame 0 to frame 3. 
 
 Each row corresponds to a joint in the manipulator, and the parameters define the geometric relationship between adjacent links.
 
+https://youtube.com/watch?v=TiDLddG-bKc&si=TNl5aeOvxJbOZ28Y
+
 <br>
 
  
@@ -372,6 +374,7 @@ Click on the image above to watch the video.
 ![INV3](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157782959/e62e87fb-ea0d-4131-9d43-433cc6b1e6db)
 </div>
 
+https://youtube.com/watch?v=38Otr9qVn1o&si=VyAJA-3ch_zNjnuY
 
 <br>
 
