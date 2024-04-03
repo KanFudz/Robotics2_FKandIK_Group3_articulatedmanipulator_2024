@@ -190,11 +190,11 @@ $$
 
 <div align="center">
  
-### Step-by-step process of solving the Degrees of Freedom of Articulated manipulator
+### **Step-by-step process of solving the Degrees of Freedom of Articulated manipulator**
 
 [![Step-by-step process of solving the Degrees of Freedom of Articulated manipulator](https://img.youtube.com/vi/g7lCQ4IBkvA/0.jpg)](https://www.youtube.com/watch?v=g7lCQ4IBkvA)
 
-Click on the image above to watch the video.
+_Click on the image above to watch the video._
 </div>
 
 <br>
@@ -275,11 +275,11 @@ The following are used to assign frames in a kinematic diagram for applying D-H 
 ![Screenshot 2024-04-02 101920](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157782959/202b4767-da41-4d16-84e7-3a760072f749)
 
 
-### Frame Assignment of Articulated Manipulator
+### **Frame Assignment of Articulated Manipulator**
 
 [![Video Thumbnail](https://img.youtube.com/vi/gjgQ8rGPYRs/0.jpg)](https://www.youtube.com/watch?v=gjgQ8rGPYRs)
 
-Click on the image above to watch the video.
+_Click on the image above to watch the video._
 
 
 </div>
@@ -336,11 +336,11 @@ Each row corresponds to a joint in the manipulator, and the parameters define th
 
 <div align="center">
 
-### Watch the Video
+### **Watch the Video**
 
 [![Video Thumbnail](https://img.youtube.com/vi/TiDLddG-bKc/0.jpg)](https://www.youtube.com/watch?v=TiDLddG-bKc)
 
-Click on the image above to watch the video.
+_Click on the image above to watch the video._
 </div>
 
 <br>
@@ -359,11 +359,11 @@ The images below are the computation of the Homogeneous Transformation Matrix of
 ![HTM1](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157782959/c078fed1-b4a9-445a-b752-b06cd6acdd54)
 ![HTM2](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157782959/89d03ab2-9463-4ad7-832d-454189ce2813)
 
-### How to solve HTM of Articulated manipulator
+### **How to solve HTM of Articulated manipulator**
 
 [![Video Thumbnail](https://img.youtube.com/vi/xQnQXaHRIYk/0.jpg)](https://www.youtube.com/watch?v=xQnQXaHRIYk)
 
-Click on the image above to watch the video.
+_Click on the image above to watch the video._
 
 
 </div>
@@ -389,11 +389,11 @@ Click on the image above to watch the video.
 ![INV2](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157782959/dc018f20-ddf5-49e3-85a6-6bf237a15956)
 ![INV3](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157782959/e62e87fb-ea0d-4131-9d43-433cc6b1e6db)
 
-### Watch the Video
+### **Watch the Video**
 
 [![Video Thumbnail](https://img.youtube.com/vi/38Otr9qVn1o/0.jpg)](https://www.youtube.com/watch?v=38Otr9qVn1o)
 
-Click on the image above to watch the video.
+_Click on the image above to watch the video._
 
 
 </div>
