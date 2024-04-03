@@ -30,16 +30,16 @@
 <div align="justify">
  
 ## I. Abstract of the Project<a name="abstract"></a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This project explores the fundamental principles governing the motion control of articulated manipulators, focusing specifically on robotic arms equipped with rotary joints. Combining theoretical insights with practical implementations for a cohesive understanding of this dynamic field.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This project explores the fundamental principles governing the motion control of **articulated manipulators**, focusing specifically on robotic arms equipped with rotary joints. Combining theoretical insights with practical implementations for a cohesive understanding of this dynamic field.
 <br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;At the core of our exploration lies the concept of degrees of freedom (DOF), which dictates the manipulator's ability to perform independent movements. Building upon this foundation, we delve into the Denavit-Hartenberg (D-H) parameters, elucidating their role in constructing a D-H table. This table simplifies the derivation of the Homogeneous Transformation Matrix (HTM), a powerful tool for describing the manipulator's end-effector position and orientation relative to a base frame.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;At the core of our exploration lies the concept of **degrees of freedom** (DOF), which dictates the manipulator's ability to perform independent movements. Building upon this foundation, we delve into the **Denavit-Hartenberg (D-H) parameters**, elucidating their role in constructing a **D-H table**. This table simplifies the derivation of the **Homogeneous Transformation Matrix** (HTM), a powerful tool for describing the manipulator's end-effector position and orientation relative to a base frame.
 <br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Navigating through the complexities of manipulator kinematics, we tackle the challenging problem of inverse kinematics. By solving inverse kinematic equations, we establish a link between the manipulator's joint angles and the desired end-effector position and orientation.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Navigating through the complexities of manipulator kinematics, we tackle the challenging problem of **inverse kinematics**. By solving inverse kinematic equations, we establish a link between the manipulator's joint angles and the desired end-effector position and orientation.
 <br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To enhance understanding and user interaction, we introduce a Python-based Graphical User Interface (GUI). This intuitive interface allows users to visualize the manipulator and solve both forward and inverse kinematics problems. The forward kinematics section computes the end-effector position and orientation for given joint angles, while the inverse kinematics section helps users determine the necessary joint angles to achieve a desired end-effector position and orientation.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To enhance understanding and user interaction, we introduce a Python-based **Graphical User Interface** (GUI). This intuitive interface allows users to visualize the manipulator and solve forward and inverse kinematics problems. The forward kinematics section computes the end-effector position and orientation for given joint angles, while the inverse kinematics section helps users determine the necessary joint angles to achieve a desired end-effector position and orientation.
 <br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;By seamlessly integrating theory with hands-on application and facilitating user engagement, this project offers a cohesive exploration of manipulator kinematics, empowering users to understand and utilize these concepts effectively in practical robotics applications.
@@ -58,7 +58,7 @@
 ### Introduction to Articulated Manipulator or Anthropomorphic Manipulator
 
 <div align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Welcome to the introduction of the Articulated Manipulator! In this section, we'll explore the fundamental components and functionalities of an articulated manipulator with three joint variables: twisting joint, revolute joint, and revolute joint. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Welcome to the introduction of the Articulated Manipulator! In this section, we'll explore the fundamental components and functionalities of an articulated manipulator with three joint variables: <i>twisting joint, revolute joint,</i>and another<i>revolute joint</i>. 
 </div>
  
 ### Purpose and Use
