@@ -426,7 +426,9 @@ _Click on the image above to watch the video._
 
 <div align="center">
  
-![432716523_1506012000260714_1992557621127016866_n](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157684612/c785d15e-3dc3-4c00-abc0-2eb2e8dcc0db)
+![434896662_7260688340635157_2833726997879933526_n](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157684612/19007faf-60a8-49ce-87a3-637d0b90972f)
+![432716523_1506012000260714_1992557621127016866_n](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157684612/9540335e-0db5-45ab-97d5-862c71095c09)
+
 </div>
 
 
