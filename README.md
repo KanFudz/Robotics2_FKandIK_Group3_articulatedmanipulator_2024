@@ -491,6 +491,31 @@ _Click on the image above to watch the video._
 ### Note
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ensure that all input parameters are provided accurately to obtain correct kinematics solutions. Additionally, familiarize yourself with the limitations and assumptions of kinematics models used in the calculations.
 
+### **GUI Demonstration**
+
+**Forward Kinematics Section**
+
+PASTE DITO YUNG GIF
+
+**Inverse Kinematics Section**
+
+PASTE DITO YUNG GIF
+
+**Error In Input Fields (Message Box)**
+
+PASTE DITO YUNG GIF
+
+**Forward Kinematics Calculation and Simulation**
+
+PASTE DITO YUNG GIF
+
+**Inverse Kinematics Calculation and Simulation**
+
+PASTE DITO YUNG GIF
+
+Reset Buttons
+
+PASTE DITO YUNG GIF
 
 ## IX. References<a name="references"></a>
 
