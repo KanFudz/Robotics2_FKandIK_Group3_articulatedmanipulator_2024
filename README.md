@@ -412,11 +412,23 @@ _Click on the image above to watch the video._
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - **Articulated Manipulator Simulation**: As a result of the Forward Kinematics Calculation, a simulation reflecting the input and output values is presented.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - **Messagebox For Error**: Shows a predetermined message if the inputs on the entry field are invalid.<br>
 
+<div align="center">
+ 
+![434896662_7260688340635157_2833726997879933526_n](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157684612/d20d045e-3edd-478e-b3e2-12c3bd73ca3f)
+</div>
+
+
 - **Inverse Kinematics**: Shows a section for Link lengths and Position Vector (input), Joint Variables Orientation (output), Calculate Button, and Reset Button. <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - **Calculate Button**: Computes the joint parameters required to achieve a desired position and orientation of the end-effector.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - **Reset Button**: Empties the input and output fields.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - **Articulated Manipulator Simulation**: As a result of the Forward Kinematics Calculation, a simulation reflecting the input and output values is presented.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - **Messagebox For Error**: Shows a predetermined message if the inputs on the entry field are invalid.<br>
+
+<div align="center">
+ 
+![432716523_1506012000260714_1992557621127016866_n](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157684612/c785d15e-3dc3-4c00-abc0-2eb2e8dcc0db)
+</div>
+
 
 ### Benefits
 
