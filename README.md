@@ -425,9 +425,8 @@ _Click on the image above to watch the video._
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - **Messagebox For Error**: Shows a predetermined message if the inputs on the entry field are invalid.<br>
 
 <div align="center">
- 
-![434896662_7260688340635157_2833726997879933526_n](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157684612/19007faf-60a8-49ce-87a3-637d0b90972f)
-![432716523_1506012000260714_1992557621127016866_n](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157684612/9540335e-0db5-45ab-97d5-862c71095c09)
+
+ ![432899677_386243654307633_7603776637070721215_n](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157684612/add645eb-824c-47a1-9ef2-4dc4543c9423)
 
 </div>
 
