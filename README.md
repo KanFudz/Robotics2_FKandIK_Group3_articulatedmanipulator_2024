@@ -129,12 +129,15 @@
 | Under-actuated Manipulator    | Spatial manipulator with less than 6 DOF or a Planar manipulator with less than 3 DOF    |
 | Ideal Manipulator    | Spatial manipulator with exactly 6 DOF or a Planar manipulator with exactly 3 DOF    |
 | Redundant Manipulator    | Spatial manipulator with more than 6 DOF or a Planar manipulator with more than 3 DOF    |
+</div>
 
 <br>
 <br>
 
 ### **Joint Classification and DOF**
 
+<div align="center">
+ 
 | **Joint Classification** | **DOF (f)** | **Constraints c between two planar rigid bodies** | **Constraints c between two spatial rigid bodies** |
 | --------------- | --------------- | --------------- | --------------- |
 | Revolute (R)    | 1    | 2    | 5 |
