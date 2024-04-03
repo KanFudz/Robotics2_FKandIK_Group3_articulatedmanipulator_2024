@@ -240,9 +240,9 @@ A typical kinematic diagram includes the following components:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In a mechanical manipulator a coordinate system that the manipulator uses to know where it is and where to go. There are generally 3 types of frames used on a mechanical manipulator:
 </div>
 
-- **Base (World) frame**
-- **User frame**
-- **Tool frame**
+- **Base (World) Frame**
+- **User Frame**
+- **Tool Frame**
 
 
 
