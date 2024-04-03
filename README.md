@@ -495,27 +495,28 @@ _Click on the image above to watch the video._
 
 **Forward Kinematics Section**
 
-PASTE DITO YUNG GIF
+![435411117_8221853984497692_1695651176259704803_n-ezgif com-video-to-gif-converter](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157684612/c1279027-2105-4a1d-a7c6-b9ab1f25a4d1)
 
 **Inverse Kinematics Section**
 
-PASTE DITO YUNG GIF
+![435370088_25048394861472218_3262759266349946465_n-ezgif com-video-to-gif-converter](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157684612/f97c751c-b34e-463b-b906-3d345084e2ca)
 
 **Error In Input Fields (Message Box)**
 
-PASTE DITO YUNG GIF
+![435425092_7347258922032492_6328062389730660340_n-ezgif com-video-to-gif-converter](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157684612/394587d7-1069-45a1-bd3f-573aa9dbed8a)
 
 **Forward Kinematics Calculation and Simulation**
 
-PASTE DITO YUNG GIF
+![435418999_7381222351941691_377747729295972446_n-ezgif com-video-to-gif-converter](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157684612/83aef6e2-9620-4196-bea2-a0ab4541a32d)
 
 **Inverse Kinematics Calculation and Simulation**
 
-PASTE DITO YUNG GIF
+![435323224_7172654199469485_1642094032515237852_n-ezgif com-video-to-gif-converter](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157684612/f9c5093d-7d39-494c-a077-b63396d4b5a2)
 
 Reset Buttons
 
-PASTE DITO YUNG GIF
+![435610951_7199350203497235_1379214598507837568_n-ezgif com-video-to-gif-converter](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157684612/4e24ee80-d290-47e0-afb2-753eb18612df)
+
 
 ## IX. References<a name="references"></a>
 
