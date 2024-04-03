@@ -332,7 +332,6 @@ The D-H parametric table organizes the D-H parameters associated with each manip
 
 This table shows the Homogeneous Transformation Matrix from frame 0 to frame 3. Theta, Alpha, r, and d of Articulated Manipulator
 
-
 Each row corresponds to a joint in the manipulator, and the parameters define the geometric relationship between adjacent links.
 
 <div align="center">
@@ -353,10 +352,10 @@ Click on the image above to watch the video.
  
 ### Concept
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The HTM is a 4x4 matrix that combines rotation and translation transformations. It enables us to express both the position (translation) and orientation (rotation) of a coordinate frame relative to another coordinate frame.
-
-<div align="center">
  
 The images below are the computation of the Homogeneous Transformation Matrix of Articulated Manipulator
+<div align="center">
+ 
 ![HTM1](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157782959/c078fed1-b4a9-445a-b752-b06cd6acdd54)
 ![HTM2](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157782959/89d03ab2-9463-4ad7-832d-454189ce2813)
 
