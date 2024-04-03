@@ -268,11 +268,16 @@ The following are used to assign frames in a kinematic diagram for applying D-H 
 <div align="center">
 
 ![Screenshot 2024-04-02 101920](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157782959/202b4767-da41-4d16-84e7-3a760072f749)
+
+
+### Watch the Video
+
+[![Video Thumbnail](https://img.youtube.com/vi/gjgQ8rGPYRs/0.jpg)](https://www.youtube.com/watch?v=gjgQ8rGPYRs)
+
+Click on the image above to watch the video.
+
+
 </div>
-
-
-https://youtube.com/watch?v=gjgQ8rGPYRs&si=1oKiBnmxJUh_0INC
-
 <br>
  
 ## V. D-H Parametric Table of Articulated Manipulator<a name="parametric-table"></a>
@@ -325,7 +330,14 @@ This table shows the Homogeneous Transformation Matrix from frame 0 to frame 3. 
 
 Each row corresponds to a joint in the manipulator, and the parameters define the geometric relationship between adjacent links.
 
-https://youtube.com/watch?v=TiDLddG-bKc&si=TNl5aeOvxJbOZ28Y
+<div align="center">
+
+### Watch the Video
+
+[![Video Thumbnail](https://img.youtube.com/vi/TiDLddG-bKc/0.jpg)](https://www.youtube.com/watch?v=TiDLddG-bKc)
+
+Click on the image above to watch the video.
+</div>
 
 <br>
 
@@ -372,10 +384,15 @@ Click on the image above to watch the video.
  
 ![INV2](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157782959/dc018f20-ddf5-49e3-85a6-6bf237a15956)
 ![INV3](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157782959/e62e87fb-ea0d-4131-9d43-433cc6b1e6db)
+
+### Watch the Video
+
+[![Video Thumbnail](https://img.youtube.com/vi/38Otr9qVn1o/0.jpg)](https://www.youtube.com/watch?v=38Otr9qVn1o)
+
+Click on the image above to watch the video.
+
+
 </div>
-
-https://youtube.com/watch?v=38Otr9qVn1o&si=VyAJA-3ch_zNjnuY
-
 <br>
 
 ## VIII. Forward and Inverse Kinematics GUI calculator of Articulated Manipulator<a name="gui-calculator"></a>
