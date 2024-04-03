@@ -389,7 +389,7 @@ _Click on the image above to watch the video._
 ![INV2](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157782959/dc018f20-ddf5-49e3-85a6-6bf237a15956)
 ![INV3](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157782959/e62e87fb-ea0d-4131-9d43-433cc6b1e6db)
 
-### **Watch the Video**
+### **Inverse Kinematics of Articulated Manipulator**
 
 [![Video Thumbnail](https://img.youtube.com/vi/38Otr9qVn1o/0.jpg)](https://www.youtube.com/watch?v=38Otr9qVn1o)
 
