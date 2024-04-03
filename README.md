@@ -261,7 +261,7 @@ The following are used to assign frames in a kinematic diagram for applying D-H 
 **Rule 4:** All frames must follow the right-hand rule. <br>
 <div align="center">
  
-![righthandrule](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157684612/239bcd4a-81ac-41cb-b37c-17f9952bfb8d)
+![righ hand rule](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157684612/8305ddcf-883e-41b0-8541-21f4cf2021aa)
 </div>
  
 ### Kinematic Diagram and D-H Frame Assignment
@@ -426,7 +426,7 @@ _Click on the image above to watch the video._
 
 <div align="center">
 
- ![432899677_386243654307633_7603776637070721215_n](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157684612/add645eb-824c-47a1-9ef2-4dc4543c9423)
+![432899677_386243654307633_7603776637070721215_n](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157684612/e83a2749-1e1f-4882-8365-f05d394f716f)
 
 </div>
 
@@ -455,6 +455,25 @@ _Click on the image above to watch the video._
 
 
 ### GUI Color Palette
+
+**Forward Kinematics Section**<br>
+<div align="center">
+ 
+![f2044472-a2e4-49a1-8387-284820694157](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157684612/235eff19-ccdd-4a09-bc2f-9915cb2073a8)
+
+</div>
+
+#220203<br>
+#380506<br>
+#540f0d<br>
+#6b0500<br>
+#87080a<br>
+#980b06<br>
+#ae120a<br>
+#c02a2a<br>
+#d04346<br>
+
+**Inverse Kinematics Section**<br>
 <div align="center">
  
 ![15773625-2bbe-4b32-b30f-c6a049a4ec2c](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157684612/39504e36-4872-4113-89a6-5e02bab6458a)
@@ -472,49 +491,28 @@ _Click on the image above to watch the video._
 #65ae91<br>
 <br>
 
-<div align="center">
- 
-![f2044472-a2e4-49a1-8387-284820694157](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157684612/235eff19-ccdd-4a09-bc2f-9915cb2073a8)
-
-</div>
-
-#220203<br>
-#380506<br>
-#540f0d<br>
-#6b0500<br>
-#87080a<br>
-#980b06<br>
-#ae120a<br>
-#c02a2a<br>
-#d04346<br>
-
-### Note
+#### Note
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ensure that all input parameters are provided accurately to obtain correct kinematics solutions. Additionally, familiarize yourself with the limitations and assumptions of kinematics models used in the calculations.
 
 ### **GUI Demonstration**
+<br>
 
-**Forward Kinematics Section**
-
+**Forward Kinematics Section**<br>
 ![435411117_8221853984497692_1695651176259704803_n-ezgif com-video-to-gif-converter](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157684612/c1279027-2105-4a1d-a7c6-b9ab1f25a4d1)
 
-**Inverse Kinematics Section**
-
+**Inverse Kinematics Section**<br>
 ![435370088_25048394861472218_3262759266349946465_n-ezgif com-video-to-gif-converter](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157684612/f97c751c-b34e-463b-b906-3d345084e2ca)
 
-**Error In Input Fields (Message Box)**
-
+**Error In Input Fields (Message Box)**<br>
 ![435425092_7347258922032492_6328062389730660340_n-ezgif com-video-to-gif-converter](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157684612/394587d7-1069-45a1-bd3f-573aa9dbed8a)
 
-**Forward Kinematics Calculation and Simulation**
-
+**Forward Kinematics Calculation and Simulation**<br>
 ![435418999_7381222351941691_377747729295972446_n-ezgif com-video-to-gif-converter](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157684612/83aef6e2-9620-4196-bea2-a0ab4541a32d)
 
-**Inverse Kinematics Calculation and Simulation**
-
+**Inverse Kinematics Calculation and Simulation**<br>
 ![435323224_7172654199469485_1642094032515237852_n-ezgif com-video-to-gif-converter](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157684612/f9c5093d-7d39-494c-a077-b63396d4b5a2)
 
-Reset Buttons
-
+Reset Buttons<br>
 ![435610951_7199350203497235_1379214598507837568_n-ezgif com-video-to-gif-converter](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157684612/4e24ee80-d290-47e0-afb2-753eb18612df)
 
 
