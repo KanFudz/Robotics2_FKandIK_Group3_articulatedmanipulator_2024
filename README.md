@@ -24,7 +24,7 @@
  <br>
 [IX. References](#references)
 <br>
-[X. Group Members](#Group-Members)
+[X. Group Members](#group-members)
 <br>
 
 <div align="justify">
