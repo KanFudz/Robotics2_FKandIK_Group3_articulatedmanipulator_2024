@@ -246,8 +246,8 @@ A typical kinematic diagram includes the following components:
 
 
 ### D-H Frame Preliminary Rules
-**Rule 1:** Decide first the 3 views you want to project on your isometric drawing
-**Rule 2:** Identify the center of your frames
+**Rule 1:** Decide first the 3 views you want to project on your isometric drawing<br>
+**Rule 2:** Identify the center of your frames<br>
 
 
 ### D-H Frame Rules
