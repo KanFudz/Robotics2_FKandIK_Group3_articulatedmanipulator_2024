@@ -367,7 +367,7 @@ The images below are the computation of the Homogeneous Transformation Matrix of
 
 
 
-[![Screenshot 2024-04-04 130240](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157782959/f9810575-6e31-47b6-be66-12f2ac09be76)](https://youtu.be/caYB3Z-Tr-A?si=vMgS9sibTRpHTdlC)
+[![Screenshot 2024-04-04 130240](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157782959/f9810575-6e31-47b6-be66-12f2ac09be76)](https://youtu.be/n083mPbrdk4?si=UU-wjyMtEpUs9ytc)
 
 _Click on the image above to watch the video._
 
