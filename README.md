@@ -81,7 +81,7 @@
 
 ### Historical Context
 <div align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The development of articulated manipulators traces back to the mid-20th century, with significant advancements occurring in robotics research and industrial automation. Early manipulators were primarily designed for repetitive tasks in manufacturing environments. One notable example is the "<i>Unimate</i>," developed by <i>George Devol and Joseph Engelberger in the 1950s</i>, which became the **first industrial robot to be employed in production lines**.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The development of articulated manipulators traces back to the mid-20th century, with significant advancements occurring in robotics research and industrial automation. Early manipulators were primarily designed for repetitive tasks in manufacturing environments. One notable example is the "<i>Unimate</i>," developed by <i>George Devol and Joseph Engelberger in the 1950s</i>, which became the first industrial robot to be employed in production lines.
 </div>
 
 ### Advancements in Robotics Technology
