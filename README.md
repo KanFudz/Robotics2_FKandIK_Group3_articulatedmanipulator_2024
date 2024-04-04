@@ -361,7 +361,7 @@ The images below are the computation of the Homogeneous Transformation Matrix of
 
 ### **How to solve HTM of Articulated manipulator**
 
-https://youtu.be/caYB3Z-Tr-A?si=vMgS9sibTRpHTdlC
+(https://youtu.be/caYB3Z-Tr-A?si=vMgS9sibTRpHTdlC)
 
 
 _Click on the image above to watch the video._
