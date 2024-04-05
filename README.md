@@ -342,7 +342,6 @@ _Click on the image above to watch the video._
 
 ### Purpose of D-H Parametric Table
 
-
 The D-H parametric table organizes the D-H parameters associated with each manipulator joint. These parameters include:
 
 1. "**α**" is the rotation around X<sub>n</sub> required to align Z<sub>n-1</sub> with Z<sub>n</sub>, where α is the rotation about X<sub>n</sub> for the joint.
@@ -488,10 +487,11 @@ _Click on the image above to watch the video._
 - **messagebox**: Used to create a messagebox for errors in the input field.
 
 - **PhotoImage**: Used to create a background using a photo.
+<br>
 
+### GUI DESIGN
 
-### GUI Color Palette
-
+#### GUI COLOR PALETTE
 **Forward Kinematics Section**<br>
 <div align="center">
  
@@ -526,6 +526,13 @@ _Click on the image above to watch the video._
 #539d85<br>
 #65ae91<br>
 <br>
+
+#### GUI BACKGROUND
+<div align="center">
+ 
+![a88653df-7432-47c9-86d4-fd3d08175b1f](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157684612/77ee29c3-9bea-49f2-867b-83bec9e57778)
+
+</div>
 
 #### Note
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ensure that all input parameters are provided accurately to obtain correct kinematics solutions. Additionally, familiarize yourself with the limitations and assumptions of kinematics models used in the calculations.
