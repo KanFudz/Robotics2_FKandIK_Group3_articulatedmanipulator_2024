@@ -213,7 +213,7 @@ $$
  
 ### **Step-by-step process of solving the Degrees of Freedom of Articulated manipulator**
 
-[![Step-by-step process of solving the Degrees of Freedom of Articulated manipulator](https://img.youtube.com/vi/g7lCQ4IBkvA/0.jpg)](https://www.youtube.com/watch?v=g7lCQ4IBkvA)
+[![Step-by-step process of solving the Degrees of Freedom of Articulated manipulator](https://img.youtube.com/vi/g7lCQ4IBkvA/0.jpg)](https://youtu.be/sTomJKnBlIk?si=xZin21xDAFs0v7ak)
 
 _Click on the image above to watch the video._
 </div>
