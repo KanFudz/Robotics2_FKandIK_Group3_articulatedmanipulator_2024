@@ -51,6 +51,7 @@
 <div align="center">
  
 ![432889743_458344376635490_3344111488579056072_n](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157684612/4990b5fd-4de6-4f8b-9e64-4fab57a77057)
+![432861001_7655580587839851_3653745963907876614_n](https://github.com/KanFudz/Robotics2_FKandIK_Group3_articulatedmanipulator_2024/assets/157684612/14193797-768f-4a94-b106-0622a147d45e)
 
 </div>
 
