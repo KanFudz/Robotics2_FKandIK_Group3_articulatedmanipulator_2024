@@ -197,6 +197,15 @@ $$
 _Click on the image above to watch the video._
 </div>
 
+<div align="center">
+ 
+### **Alternative video for Step-by-step process of solving the Degrees of Freedom of Articulated manipulator**
+
+[![Step-by-step process of solving the Degrees of Freedom of Articulated manipulator](https://img.youtube.com/vi/g7lCQ4IBkvA/0.jpg)](https://www.youtube.com/watch?v=g7lCQ4IBkvA)
+
+_Click on the image above to watch the video._
+</div>
+
 <br>
 
 ## IV. Kinematic Diagram and D-H Frame Assignment of Articulated Manipulator<a name="kinematic-diagram"></a>
