@@ -6,6 +6,7 @@ import matplotlib as mpl
 mpl.use('TkAgg')
 import roboticstoolbox as rtb
 from roboticstoolbox import DHRobot, RevoluteDH, PrismaticDH
+import sympy as sp
 
 # Create GUI Window with title
 root = Tk()
