@@ -474,7 +474,6 @@ def calculate_forward():
     Articulated_Calculator.plot(traj2.q,limits=[x1,x2,y1,y2,z1,z2],block=True)
 
 
-
 def calculate_inverse():
     try:
         # Get values from entry fields
